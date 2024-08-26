@@ -86,7 +86,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável(is)
 |------|-----------------------------------------|----| ----| 
-|RF-01| Permitir ao usuário a criação de conta.   | ALTA | Fernando
+|RF-01| Permitir ao usuário a criação de conta.   | x | y
 |RF-02| Permitir ao usuário a gerar um relatório dos alimentos que precisam ser comprados.   | x | y
 |RF-03| Permitir ao usuário a definição de prazo de alimentos não perecíveis.    | x | y
 |RF-04| Permitir o cadastro de alimentos que serão adicionados a despensa do usuário.    | x | y
