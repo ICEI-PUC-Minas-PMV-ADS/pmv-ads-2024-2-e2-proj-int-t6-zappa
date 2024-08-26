@@ -96,6 +96,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RF-08| Permitir ao usuário calcular o desperdício dos alimentos através da calculadora de desperdício.    | x | y
 |RF-09| Permitir ao usuário gerar um relatório de alimentos desperdiçados com os resultados fornecidos pela calculadora de desperdício.    | x | y
 |RF-10| Permitir ao usuário acessar a página de receitas.    | x | y
+|RF-11| Permitir ao usuário um mapa que exibe iniciativas locais.   | x | y
 
 **Prioridade: Alta / Média / Baixa.  
 
