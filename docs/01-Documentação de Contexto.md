@@ -1,36 +1,29 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Vivemos uma enorme contradição: enquanto a fome avança no Brasil e mais 19 milhões de pessoas não têm o que comer - triste indicador que quase duplicou desde 2014 - também desperdiçamos um total de 55 milhões de toneladas de alimento por ano no país. Estamos na lista dos dez países que mais desperdiçam alimentos no mundo, gerando o descarte de aproximadamente 30% de tudo que é produzido para o consumo.  Esse desperdício se encontra em toda a cadeia produtiva, que vai do produtor, passando pelo transporte e armazenamento, chegando na mesa do consumidor. Portanto, ele também nos diz respeito. 
+
+No lado do consumidor, temos um desperdício de 7,5 milhões de toneladas de alimento por ano, o que representa 15% do total desperdiçado na cadeia produtiva. Isso se dá, especialmente, porque temos uma cultura de abundância de comida à mesa, valorizando refeições frescas, feitas no mesmo dia. 
+
+Entre as principais causas do desperdício excessivo de alimentos, estão alguns hábitos errados dos consumidores, que podem ser facilmente corrigidos, entre elas estão a falta de planejamento das compras, o armazenamento inadequado em nossas casas e o não-aproveitamento de partes dos alimentos que são próprias para o consumo. 
+
+Diante deste contexto, surge o presente projeto, que visa desenvolver uma aplicação interativa voltada para auxiliar nossos usuários na gestão do consumo de alimentos e redução de desperdício.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Perante o exposto, com acesso ao nosso projeto desejamos combater o desperdício de comida enfrentada pelos consumidores e promover uma gestão de consumo consciente de alimentos.  
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral do nosso projeto é diminuir o desperdício de alimentos e promover a gestão do consumo consciente desses produtos. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos destacamos: 
+
+* Oferecer uma plataforma de gestão de consumo consciente na compra de alimentos. 
+
+* Oferecer opções de reaproveitamento dos alimentos através de receitas saudáveis e sustentáveis. 
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo. Ou, o grupo poderá consultar e justificar o impacto do problema para o público-alvo por meio de pesquisas em outras fontes. Neste caso, é essencial que todos os dados apresentados estejam acompanhados de suas fontes (conforme padrão ABNT).
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Segundo a ONU (Organização das Nações Unidas) e FAO (Organização das Nações Unidas para Alimentação e Agricultura), cerca de 30% da produção global de alimentos é desperdiçada ou perdida anualmente o que equivale a cerca de 1,3 bilhão de toneladas. O presente projeto se faz necessário, justamente para diminuição dessa taxa de desperdício, redução de custos e otimização da gestão tanto em casa como nos estabelecimentos. 
 
 ## Público-Alvo
 
