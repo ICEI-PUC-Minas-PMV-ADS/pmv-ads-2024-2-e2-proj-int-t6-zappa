@@ -1,99 +1,117 @@
-# Especificações do Projeto
+## Perfil de Usuário
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+<table>
+<tbody>
+<tr>
+<th colspan="2">Perfil 1: Consumidor Consciente </th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">
+Pessoas que já praticam hábitos de consumo consciente, preocupadas com o meio ambiente e o desperdício de alimentos.  
+</td>
+</tr>
+<tr>
+<td><b>Necessidades</b></td>
+<td>
+1. Ferramentas que facilitem o controle do estoque de alimentos;
+2. Sugestões de receitas para reaproveitar sobras. 
+</td>
+</tr>
+</tbody>
+</table>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+<table>
+<tbody>
+<tr>
+<th colspan="2">Perfil 2: Famílias que Buscam Economia </th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">
+Famílias que desejam economizar no orçamento doméstico e reduzir gastos com compras desnecessárias. 
+</td>
+</tr>
+<tr>
+<td><b>Necessidades</b></td>
+<td>
+1. Controle da validade dos alimentos; 
+2. Sugestões de compras mais inteligentes com base no que já está disponível na despensa. 
+</td>
+</tr>
+</tbody>
+</table>
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+<table>
+<tbody>
+<tr>
+<th colspan="2">Perfil 3: Pessoas com Estilo de Vida Sustentável </th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">
+Indivíduos ou famílias que seguem um estilo de vida sustentável, buscando reduzir o impacto ambiental através de hábitos alimentares responsáveis.
+</td>
+</tr>
+<tr>
+<td><b>Necessidades</b></td>
+<td>
+1. Sugestões de receitas sustentáveis; 
+2. Dicas de reaproveitamento de alimentos; 
+</td>
+</tr>
+</tbody>
+</table>
 
-## Personas
-
-Identifique, em torno de, 5 personas. Para cada persona, lembre-se de descrever suas angústicas, frustrações e expectativas de vida relacionadas ao problema. Além disso, defina uma "aparência" para a persona. Para isso, você poderá utilizar sites como [https://this-person-does-not-exist.com/pt#google_vignette](https://this-person-does-not-exist.com/pt) ou https://thispersondoesnotexist.com/ 
-
-Utilize também como referência o exemplo abaixo:
-
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/IntApplicationProject-Template/blob/main/docs/img/AnaClara1.png" alt="Persona1"/>
-
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> 
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
-
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Ana Clara  | Uma forma de identificar se uma agência é realmente confiável           | Me sentir mais segura ao contratar seus serviços               |
-|Ana Clara       | Ter um mecanismo eficiente e rápido de comunicação                 | Que eu possa sanar todas as minhas dúvidas rapidamente |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                             |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|--------------------------------------------------------------------------------|----------------------------------------|
+|Usuário | criar uma conta no site | organizar meu consumo de alimentos de forma mais consciente |
+|Usuário | gerar um relatório de produtos a serem comprados no site | evitar o desperdício de alimentos. |
+|Usuário | definir um prazo específico dos alimentos não perecíveis | rganizar as minhas compras de acordo com as necessidades de consumo individual e familiar. |
+|Usuário | cadastrar os alimentos que serão adicionados a despensa  | obter o controle de alimentos que serão consumidos.   |
+|Usuário | gerar uma listagem dos alimentos cadastrados  | verificar quais são os itens necessário para compra e consumo.  |
+|Usuário | verificar quais alimentos da despensa virtual estão próximos da data de vencimento | consumi-los o quanto antes e evitar o desperdício.  |
+|Usuário | verificar opções de receitas para reaproveitamento dos alimentos próximos da data de vencimento | evitar o desperdício e variar o cardápio. |
+|Usuário | calcular o desperdício dos alimentos utilizando a calculadora de desperdício | mensurar a quantidade de alimentos não consumidos. |
+|Usuário | erar um relatório de alimentos desperdiçados | tomar medidas que resultem no não desperdício destes alimentos.  |
+|Usuário | acessar a página de receitas | reaproveitar os alimentos que estão próximos a data de vencimento.  |
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+## Requisitos Funcionais
 
-### Requisitos Funcionais
+|ID    | Descrição do Requisito  | Prioridade | Responsável(is)
+|------|-----------------------------------------|----| ----| 
+|RF-01| Permitir ao usuário a criação de conta.   | ALTA | Fernando
+|RF-02| Permitir ao usuário a gerar um relatório dos alimentos que precisam ser comprados.   | x | y
+|RF-03| Permitir ao usuário a definição de prazo de alimentos não perecíveis.    | x | y
+|RF-04| Permitir o cadastro de alimentos que serão adicionados a despensa do usuário.    | x | y
+|RF-05| Permitir ao usuário listar os alimentos cadastros, gerando uma despensa virtual.    | x | y
+|RF-06| Permitir ao usuário verificar quais alimentos da despensa virtual estão próximos da data de vencimento.    | x | y
+|RF-07| Permitir ao usuário consultar opções de receitas para reaproveitamento dos alimentos próximos da data de vencimento.  | x | y
+|RF-08| Permitir ao usuário calcular o desperdício dos alimentos através da calculadora de desperdício.    | x | y
+|RF-09| Permitir ao usuário gerar um relatório de alimentos desperdiçados com os resultados fornecidos pela calculadora de desperdício.    | x | y
+|RF-10| Permitir ao usuário acessar a página de receitas.    | x | y
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário avalie uma agência de intercâmbio com base na sua experiência| ALTA | 
-|RF-002| A aplicação deve permitir que o usuário inclua comentários ao fazer uma avaliação de uma agência de intercâmbio    | ALTA |
-|RF-003| A aplicação deve permitir que o usuário consulte todas as agências de intercâmbio cadastradas ordenando-as com base em suas notas | ALTA |
+**Prioridade: Alta / Média / Baixa.  
 
-### Requisitos não Funcionais
+### Requisitos Não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-
-## Restrições
-
-O projeto está restrito pelos itens apresentados na tabela a seguir.
-
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|RNF-01| Ser compativel com o principal navegador do mercado: Google Chrome.   | ALTA |
+|RNF-02| Ser responsivo nos dispositivos: celular, laptop e desktop.  | ALTA |
+|RNF-03| Deve processar requisições do usuário em no máximo 5s. | MÉDIA |
+|RNF-04| Garantir uma disponibilidade de 95% para que os usuários possam acessá-lo com o mínimo de períodos de inatividade. | ALTA |
+|RNF-05| Exigir senhas que atendam aos critérios de segurança, incluindo a inserção de letras maiúsculas, minúsculas, números e caracteres especiais.  | ALTA |
 
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
+**Prioridade: Alta / Média / Baixa.
 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
