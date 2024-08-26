@@ -1,23 +1,26 @@
-# TÍTULO DO PROJETO
+# Zappa
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas - PUC Minas`
 
-`DISCIPLINA`
+`Desenvolvimento de uma Aplicação Interativa`
 
-`SEMESTRE`
+`2º Semestre 2024`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O objetivo geral do Zappa é diminuir o desperdício de alimentos e promover a gestão do consumo consciente desses produtos. 
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Carolina da Costa Lucas
+* Nayara Aparecida de Paula Cupertino
+* Fernanda Sayuri Kano
+* Marilio César Freitas Santos Vieira
+* Cássia de Arruda Nicolau Santos
+* Tiago Marques Leite
+* Andre Marcelo Lewis Dexheimer
 
 ## Orientador
 
-* Nome completo do professor 1
+* Bernardo Jeunon de Alencar
 
 ## Instruções de utilização
 
