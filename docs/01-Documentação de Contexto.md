@@ -26,8 +26,7 @@ Como objetivos específicos destacamos:
 Segundo a ONU (Organização das Nações Unidas) e FAO (Organização das Nações Unidas para Alimentação e Agricultura), cerca de 30% da produção global de alimentos é desperdiçada ou perdida anualmente o que equivale a cerca de 1,3 bilhão de toneladas. O presente projeto se faz necessário, justamente para diminuição dessa taxa de desperdício, redução de custos e otimização da gestão tanto em casa como nos estabelecimentos. 
 
 ## Público-Alvo
-
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
+Evitar o desperdicio começa com a conscientização. Desse modo, estabeleceu-se como público alvo, todos que tem interesse em sustentabilidade e buscam economia como: restaurantes e supermercados, famílias e donas de casa,agricultores e produtores rurais.
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
