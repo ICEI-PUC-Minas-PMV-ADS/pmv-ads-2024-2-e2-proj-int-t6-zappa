@@ -10,12 +10,9 @@ O objetivo geral do Zappa é diminuir o desperdício de alimentos e promover a g
 
 ## Integrantes
 
-* Carolina da Costa Lucas
-* Nayara Aparecida de Paula Cupertino
 * Fernanda Sayuri Kano
 * Marilio César Freitas Santos Vieira
 * Cássia de Arruda Nicolau Santos
-* Tiago Marques Leite
 * Andre Marcelo Lewis Dexheimer
 
 ## Orientador
