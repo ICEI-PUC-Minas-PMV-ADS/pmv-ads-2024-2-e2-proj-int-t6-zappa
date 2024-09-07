@@ -74,7 +74,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário | cadastrar os alimentos que serão adicionados a despensa  | obter o controle de alimentos que serão consumidos.   |
 |Usuário | gerar uma listagem dos alimentos cadastrados  | verificar quais são os itens necessário para compra e consumo.  |
 |Usuário | excluir alimentos que não possuo mais | controle pessoal de consumo.  |
-|Usuário | consultar os alimentos utilizando um campo de pesquisa | ser mais facil a visualização de meus produtos. |
+|Usuário | consultar os alimentos mais recorrentes | para fazer uma compra mais assertiva. |
 |Usuário | ver quais os alimentos estão proximos a data de vencimento  | para evitar o desperdicio. |
 |Usuário | visualizar o suporte do aplicativo | para contatar a equipe em caso de duvidas ou sugestões.  |
 |Usuário | visualizar uma pagina "sobre" | para entender o proposito e de onde veio a idea do sistema.  |
@@ -91,7 +91,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RF-04| Permitir o cadastro de alimentos que serão adicionados a despensa do usuário.    | x | y
 |RF-05| Permitir ao usuário listar os alimentos cadastros, gerando uma despensa virtual.    | x | y
 |RF-06| Permitir ao usuário a exclusão de alimentos da despensa virtual.    | x | y
-|RF-07| Permitir ao usuário consultar alimentos listados e cadastrados na despensa virtual.  | x | y
+|RF-07| Permitir ao usuário a visualização dos alimentos mais recorrentes.  | x | y
 |RF-08| Permitir ao usuário a visualização de alimentos que estão próximos a data de vencimento.    | x | y
 |RF-09| Permitir ao usuário visualizar um campo de suporte.    | x | y
 |RF-10| Permitir ao usuário acessar a página "sobre nós".    | x | y
