@@ -15,7 +15,6 @@ Pessoas que já praticam hábitos de consumo consciente, preocupadas com o meio 
 <td><b>Necessidades</b></td>
 <td>
 1. Ferramentas que facilitem o controle do estoque de alimentos;
-2. Sugestões de receitas para reaproveitar sobras. 
 </td>
 </tr>
 </tbody>
@@ -45,19 +44,19 @@ Famílias que desejam economizar no orçamento doméstico e reduzir gastos com c
 <table>
 <tbody>
 <tr>
-<th colspan="2">Perfil 3: Pessoas com Estilo de Vida Sustentável </th>
+<th colspan="2">Perfil 3: Profissional ocupado </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
 <td width="600px">
-Indivíduos ou famílias que seguem um estilo de vida sustentável, buscando reduzir o impacto ambiental através de hábitos alimentares responsáveis.
+Pessoa com uma rotina agitada e pouco tempo para pensar em o que comprar ou preparar. Quer otimizar as idas ao supermercado e preparar refeições rápidas e fáceis.
 </td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
 <td>
-1. Sugestões de receitas sustentáveis; 
-2. Dicas de reaproveitamento de alimentos; 
+1. Listar de itens da despensa; 
+2. Lista de itens que estão próximos ao vencimento; 
 </td>
 </tr>
 </tbody>
