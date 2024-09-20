@@ -8,19 +8,61 @@ Não deixe de enumerar os casos de teste de forma sequencial e de garantir que o
 
 Por exemplo:
  
-| **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
+| **Caso de Teste** 	| **CT-01 – Cadastrar conta** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
-| Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
+|	Requisito Associado 	| RF-01 |
+| Objetivo do Teste 	| Verificar se a criação de conta está acontecendo da forma esperada. |
+| Passos 	| - Clicar em "Cadastre-se" <br> - Preencher os campos obrigatórios (nome, e-mail, senha e confirme a senha) <br> - Clicar em "Cadastrar" |
 |Critério de Êxito | - O cadastro foi realizado com sucesso. |
 |  	|  	|
-| Caso de Teste 	| CT-02 – Efetuar login	|
-|Requisito Associado | RF-00Y	- A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail. |
-| Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
-|Critério de Êxito | - O login foi realizado com sucesso. |
-
+| **Caso de Teste** 	| **CT-02 – Editar perfil** 	|
+|	Requisito Associado 	| RF-02 |
+| Objetivo do Teste 	| Verificar se a edição do perfil do usuário está acontecendo da forma esperada. |
+| Passos 	| - Clicar em "Perfil" <br> - Clicar em "Editar perfil" <br> - Editar campos desejados <br> - Clicar em "Salvar" |
+|Critério de Êxito | - A edição foi realizada com sucesso. |
+|  	|  	|
+| **Caso de Teste** 	| **CT-03 – Fazer login** 	|
+|	Requisito Associado 	| RF-03 |
+| Objetivo do Teste 	| Verificar se o login do usuário está acontecendo da forma esperada. |
+| Passos 	| - Clicar em "Perfil" <br> - Clicar em "Entre" <br> - Preencher campos obrigatórios <br> - Clicar em "Entrar" |
+|Critério de Êxito | - A login foi realizado com sucesso. |
+|  	|  	|
+| **Caso de Teste** 	| **CT-04 – Cadastro de alimentos** 	|
+|	Requisito Associado 	| RF-04 |
+| Objetivo do Teste 	| Verificar se o cadastros de alimentos a despensa virtual está acontecendo da forma esperada. |
+| Passos 	| - Clicar em "Despensa" <br> - Clicar em "Cadastrar Alimento" <br> - Preencher campos obrigatórios (alimento, quantidade, data de compra, data de validade e categoria) <br> - Clicar em "Cadastrar" |
+|Critério de Êxito | - O cadastro do alimento foi realizado com sucesso. |
+|  	|  	|
+| **Caso de Teste** 	| **CT-05 – Listagem de alimentos** 	|
+|	Requisito Associado 	| RF-05 |
+| Objetivo do Teste 	| Verificar se a listagem de alimentos da despensa virtual está acontecendo da forma esperada. |
+| Passos 	| - Clicar em "Despensa" <br> |
+|Critério de Êxito | - Lista os alimentos da despensa virtual da forma adequada. |
+|  	|  	|
+| **Caso de Teste** 	| **CT-06 – Exclusão de alimentos** 	|
+|	Requisito Associado 	| RF-06 |
+| Objetivo do Teste 	| Verificar se a exclusão dos alimentos da despensa virtual está acontecendo da forma esperada. |
+| Passos 	| - Clicar em "Despensa" <br> - Clicar em "Excluir" no alimento escolhido <br> |
+|Critério de Êxito | - A exclusão do alimento da despensa virtual foi realizado com sucesso. |
+|  	|  	|
+| **Caso de Teste** 	| **CT-08 – Exibir alimentos próximos ao vencimento** 	|
+|	Requisito Associado 	| RF-08 |
+| Objetivo do Teste 	| Verificar se a exibição dos alimentos próximos a data de vencimento está correta. |
+| Passos 	| - Clicar em "Despensa" <br> |
+|Critério de Êxito | - Exibe os alimentos próximos a data de vencimento da despensa virtual de forma adequada. |
+|  	|  	|
+| **Caso de Teste** 	| **CT-09 – Enviar dúvidas ao suporte** 	|
+|	Requisito Associado 	| RF-09 |
+| Objetivo do Teste 	| Verificar se o envio de dúvidas ao suporte acontece da forma esperada. |
+| Passos 	| - Clicar em "Suporte" <br> - Preencher campos obrigatórios <br> - Criar em "Enviar" <br> |
+|Critério de Êxito | - O envio de dúvidas ao suporte foi realizado com sucesso. |
+|  	|  	|
+| **Caso de Teste** 	| **CT-10 – Acessar area sobre nós** 	|
+|	Requisito Associado 	| RF-10 |
+| Objetivo do Teste 	| Verificar se a exibição de informações do projeto está correta. |
+| Passos 	| - Clicar em "Sobre Nós" <br> |
+|Critério de Êxito | - Exibe as informações do projeto de forma adequada. |
+|  	|  	|
  
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
