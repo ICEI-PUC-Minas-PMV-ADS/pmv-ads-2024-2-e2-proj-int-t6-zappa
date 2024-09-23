@@ -73,7 +73,7 @@ O editor de código foi escolhido porque ele possui uma integração com o siste
 |--------------------|--------------------------------------------------------------------------------|----------------------------------------|
 |Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t6-zappa/blob/main/README.md  |
 |Documentos do projeto  | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t6-zappa  |
-|Projeto de interface e wireframes | MarvelApp | x |
+|Projeto de interface interativo | MarvelApp | https://marvelapp.com/prototype/32e88546 |
 |Gerenciamento do projeto  | GitHub | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1170 |
 
 ### Estratégia de Organização de Codificação 
