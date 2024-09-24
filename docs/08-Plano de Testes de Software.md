@@ -45,6 +45,12 @@ Por exemplo:
 | Passos 	| - Clicar em "Despensa" <br> - Clicar em "Excluir" no alimento escolhido <br> |
 |Critério de Êxito | - A exclusão do alimento da despensa virtual foi realizado com sucesso. |
 |  	|  	|
+| **Caso de Teste** 	| **CT-07 – Recuperar senha** 	|
+|	Requisito Associado 	| RF-08 |
+| Objetivo do Teste 	| Verificar se a recuperação da senha está acontecendo da forma esperada. |
+| Passos 	| - Clicar em "Recuperar senha" <br> |
+|Critério de Êxito | - O usuário consegue recuperar a senha de forma adequada de forma adequada. |
+|  	|  	|
 | **Caso de Teste** 	| **CT-08 – Exibir alimentos próximos ao vencimento** 	|
 |	Requisito Associado 	| RF-08 |
 | Objetivo do Teste 	| Verificar se a exibição dos alimentos próximos a data de vencimento está correta. |
