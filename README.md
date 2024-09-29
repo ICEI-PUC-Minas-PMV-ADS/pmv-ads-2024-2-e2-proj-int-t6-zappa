@@ -1,5 +1,7 @@
 # Zappa
 
+<img src="https://github.com/user-attachments/assets/66d73966-09e1-4cc6-8192-63ecee975b02" alt="zappa" width="300"/>
+
 `Análise e Desenvolvimento de Sistemas - PUC Minas`
 
 `Desenvolvimento de uma Aplicação Interativa`
