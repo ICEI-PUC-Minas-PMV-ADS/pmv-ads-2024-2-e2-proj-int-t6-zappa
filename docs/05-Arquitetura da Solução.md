@@ -31,9 +31,14 @@ O projeto da base de dados corresponde à representação das entidades e relaci
  
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+<b>PostgreSQL</b><br>
+<br>Por que usar:
+<p>- Mesmo sendo robusto, funciona bem para aplicações pequenas, mas tem potencial de escalar quando necessário.
+<br>Suporte a tipos de dados avançados e uma comunidade muito ativa.
+<br>Open-source e fácil de configurar em diferentes ambientes.
+<br>Flexível e extensível com suporte a consultas complexas.
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+ <p>Quando usar: Quando você precisa de mais poder de customização ou vê um potencial de crescimento no futuro.
 
 ## Hospedagem
 
