@@ -33,10 +33,10 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 
 <b>PostgreSQL</b><br>
 <br>Por que usar:
-<p>- Mesmo sendo robusto, funciona bem para aplicações pequenas, mas tem potencial de escalar quando necessário.
-<br>Suporte a tipos de dados avançados e uma comunidade muito ativa.
-<br>Open-source e fácil de configurar em diferentes ambientes.
-<br>Flexível e extensível com suporte a consultas complexas.
+<p>-> Mesmo sendo robusto, funciona bem para aplicações pequenas, mas tem potencial de escalar quando necessário.
+<br>-> Suporte a tipos de dados avançados e uma comunidade muito ativa.
+<br>-> Open-source e fácil de configurar em diferentes ambientes.
+<br>-> Flexível e extensível com suporte a consultas complexas.
 
  <p>Quando usar: Quando você precisa de mais poder de customização ou vê um potencial de crescimento no futuro.
 
