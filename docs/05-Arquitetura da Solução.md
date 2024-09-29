@@ -24,7 +24,8 @@ Sugestão de ferramentas para geração deste artefato: LucidChart e Draw.io.
 
 A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
 
-![Entity Relationship Diagram](https://github.com/user-attachments/assets/06449e8a-854f-4d26-bb3c-18e75285011e)
+![Entity Relationship Diagram (3)](https://github.com/user-attachments/assets/0530dd0c-6825-42f8-ac05-cf0d68d2f75b)
+
 
 
 > - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
