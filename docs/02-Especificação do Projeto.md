@@ -85,16 +85,16 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável(is)
 |------|-----------------------------------------|----| ----| 
-|RF-01| Permitir ao usuário a criação de conta.   | x | y
-|RF-02| Permitir ao usuário a edição do perfil.   | x | y
-|RF-03| Permitir ao usuário fazer login.    | x | y
-|RF-04| Permitir o cadastro de alimentos que serão adicionados a despensa do usuário.    | x | y
-|RF-05| Permitir ao usuário listar os alimentos cadastros, gerando uma despensa virtual.    | x | y
-|RF-06| Permitir ao usuário a exclusão de alimentos da despensa virtual.    | x | y
-|RF-07| Permitir ao usuário a recuperação de senha.  | x | y
-|RF-08| Permitir ao usuário a visualização de alimentos que estão próximos a data de vencimento.    | x | y
-|RF-09| Permitir ao usuário visualizar um campo de suporte.    | x | y
-|RF-10| Permitir ao usuário acessar a página "sobre nós".    | x | y
+|RF-01| Permitir ao usuário a criação de conta.   | Alta | y
+|RF-02| Permitir ao usuário a edição do perfil.   | Alta | y
+|RF-03| Permitir ao usuário fazer login.    | Alta | y
+|RF-04| Permitir o cadastro de alimentos que serão adicionados a despensa do usuário.    | Alta | y
+|RF-05| Permitir ao usuário listar os alimentos cadastros, gerando uma despensa virtual.    | Alta | y
+|RF-06| Permitir ao usuário a exclusão de alimentos da despensa virtual.    | Média | y
+|RF-07| Permitir ao usuário a recuperação de senha.  | Média | y
+|RF-08| Permitir ao usuário a visualização de alimentos que estão próximos a data de vencimento.    | Alta | y
+|RF-09| Permitir ao usuário visualizar um campo de suporte.    | Média | y
+|RF-10| Permitir ao usuário acessar a página "sobre nós".    | Baixa | y
 
 **Prioridade: Alta / Média / Baixa.  
 
