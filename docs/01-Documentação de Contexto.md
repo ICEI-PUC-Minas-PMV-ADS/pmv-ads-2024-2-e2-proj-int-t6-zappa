@@ -1,33 +1,37 @@
 # Introdução
 
-Vivemos uma enorme contradição: enquanto a fome avança no Brasil e mais 19 milhões de pessoas não têm o que comer - triste indicador que quase duplicou desde 2014 - também desperdiçamos um total de 55 milhões de toneladas de alimento por ano no país. Estamos na lista dos dez países que mais desperdiçam alimentos no mundo, gerando o descarte de aproximadamente 30% de tudo que é produzido para o consumo.  Esse desperdício se encontra em toda a cadeia produtiva, que vai do produtor, passando pelo transporte e armazenamento, chegando na mesa do consumidor. Portanto, ele também nos diz respeito. 
-
-No lado do consumidor, temos um desperdício de 7,5 milhões de toneladas de alimento por ano, o que representa 15% do total desperdiçado na cadeia produtiva. Isso se dá, especialmente, porque temos uma cultura de abundância de comida à mesa, valorizando refeições frescas, feitas no mesmo dia. 
-
-Entre as principais causas do desperdício excessivo de alimentos, estão alguns hábitos errados dos consumidores, que podem ser facilmente corrigidos, entre elas estão a falta de planejamento das compras, o armazenamento inadequado em nossas casas e o não-aproveitamento de partes dos alimentos que são próprias para o consumo. 
-
-Diante deste contexto, surge o presente projeto, que visa desenvolver uma aplicação interativa voltada para auxiliar nossos usuários na gestão do consumo de alimentos e redução de desperdício.
+Vivemos uma contradição entre a fome crescente no Brasil, com mais de 19 milhões de pessoas passando por insegurança alimentar, e o desperdício de 55 milhões de toneladas de alimentos anualmente. O Brasil está entre os dez países que mais desperdiçam alimentos no mundo, e cerca de 30% do que é produzido é perdido ao longo da cadeia produtiva, com 7,5 milhões de toneladas sendo desperdiçadas pelo consumidor final. Isso se deve principalmente à falta de planejamento nas compras, armazenamento inadequado e não aproveitamento integral dos alimentos. O projeto visa combater esse desperdício através do desenvolvimento de uma aplicação interativa que auxilia na gestão do consumo de alimentos, promovendo um uso mais consciente e eficiente.
 
 ## Problema
-Perante o exposto, com acesso ao nosso projeto desejamos combater o desperdício de comida enfrentada pelos consumidores e promover uma gestão de consumo consciente de alimentos.  
+
+Embora o desperdício de alimentos seja um problema global, no Brasil ele se agrava pela combinação de fatores econômicos, sociais e culturais, que resultam em consequências profundas para a sociedade e o meio ambiente.
+
+* Fome e desigualdade: Enquanto milhões de brasileiros enfrentam insegurança alimentar, uma quantidade significativa de alimentos é desperdiçada, o que aprofunda a desigualdade social e agrava a fome no país.
+* Cultura de Desperdício no Consumidor Final: A falta de planejamento nas compras, o armazenamento inadequado e o hábito de não aproveitar integralmente os alimentos resultam em 7,5 milhões de toneladas de comida desperdiçada pelos consumidores.
+* Impacto Ambiental do Desperdício: O desperdício de alimentos contribui para o aumento do lixo orgânico, que, ao se decompor, gera gases de efeito estufa, como o metano, prejudicando o meio ambiente.
+* Custo Econômico do Desperdício: Além de prejudicar o meio ambiente e a segurança alimentar, o desperdício gera perdas financeiras para produtores, empresas e consumidores, impactando negativamente a economia.
 
 ## Objetivos
 
 O objetivo geral do nosso projeto é diminuir o desperdício de alimentos e promover a gestão do consumo consciente desses produtos. 
-
 Como objetivos específicos destacamos: 
 
-* Oferecer uma plataforma de gestão de consumo consciente na compra de alimentos.
+* Educar os usuários sobre o planejamento de compras: Desenvolver uma despensa virtual que auxilia no planejamento adequado das compras, evitando o excesso de alimentos adquiridos e o consequente desperdício.
+* Monitorar o consumo e o desperdício doméstico: Implementar ferramentas para que os usuários possam registrar e acompanhar seu consumo alimentar, ajudando-os a identificar e reduzir o desperdício em suas casas.
+* Criar alertas e lembretes de validade: Um sistema de notificação que avise os usuários sobre a proximidade do vencimento dos alimentos, incentivando o consumo antes que estraguem.
+* Promover a redução do desperdício na rotina diária: Oferecer dicas e desafios diários que incentivem os usuários a reduzir o desperdício de alimentos no dia a dia de forma prática e acessível.
+
 
 ## Justificativa
 
-Segundo a ONU (Organização das Nações Unidas) e FAO (Organização das Nações Unidas para Alimentação e Agricultura), cerca de 30% da produção global de alimentos é desperdiçada ou perdida anualmente o que equivale a cerca de 1,3 bilhão de toneladas. O presente projeto se faz necessário, justamente para diminuição dessa taxa de desperdício, redução de custos e otimização da gestão tanto em casa como nos estabelecimentos. 
+A justificativa para abordar o problema do desperdício de alimentos no Brasil está fundamentada na urgência de combater a insegurança alimentar e reduzir os impactos socioeconômicos e ambientais causados por esse fenômeno. Enquanto milhões de brasileiros passam fome, uma grande quantidade de alimentos é descartada ao longo da cadeia produtiva, o que representa uma falha crítica em termos de distribuição e consumo. Além disso, o desperdício contribui para o agravamento da crise ambiental, gerando poluição e aumentando as emissões de gases de efeito estufa. Então, iniciativas voltadas para a conscientização, redução do desperdício e melhor aproveitamento dos alimentos são essenciais para promover um desenvolvimento mais sustentável e equitativo no país.
+
 
 ## Público-Alvo
-Evitar o desperdicio começa com a conscientização. Desse modo, estabeleceu-se como público alvo, todos que tem interesse em sustentabilidade e buscam economia como: restaurantes e supermercados, famílias e donas de casa, agricultores e produtores rurais.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Evitar o desperdício começa com a conscientização. Desse modo, estabeleceu-se como público alvo, todos que tem interesse em sustentabilidade e buscam economia como: restaurantes e supermercados, famílias e donas de casa, agricultores e produtores rurais.
+
+* Consumidor Consciente: Pessoas que já praticam hábitos de consumo consciente, preocupadas com o meio ambiente e o desperdício de alimentos.
+* Famílias que Buscam Economia: Famílias que desejam economizar no orçamento doméstico e reduzir gastos com compras desnecessárias.
+* Profissional ocupado: Pessoa com uma rotina agitada e pouco tempo para pensar em o que comprar ou preparar. Quer otimizar as idas ao supermercado e preparar refeições rápidas e fáceis.
+  
