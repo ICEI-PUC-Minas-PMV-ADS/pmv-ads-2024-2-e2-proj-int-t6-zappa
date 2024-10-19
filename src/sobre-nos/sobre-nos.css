@@ -1,0 +1,180 @@
+/* Estilo Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    width: 100%;
+    padding: 10px 0;
+    top: 0;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    position: relative;
+}
+
+/* Logo */
+.logo-cabecalho img {
+    height: 50px;
+    display: flex;
+    align-items: center; /* Alinha verticalmente a logo */
+    margin-right: 40px;
+}
+
+/* Itens do menu de navegação */
+.nav-itens {
+    display: flex; /* Permite que os itens sejam exibidos em linha */
+    gap: 15px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+.nav-itens li {
+    display: inline;
+}
+
+.nav-itens a {
+    white-space: nowrap;
+    text-decoration: none;
+    color: #5A6978;
+    font-weight: 600; /* Aumenta a espessura da fonte */
+    font-size: 1.1em;
+    padding: 10px;
+    letter-spacing: 0.5px; /* Aumenta o espaçamento entre letras para suavizar */
+}
+
+.nav-itens a:hover {
+    color: #64707ce1; /* Alterar a cor ao passar o mouse */
+}
+
+.nav-itens a.active {
+    background-color: rgba(150, 159, 170, 0.18);
+    border-radius: 10px;
+    width: 170px;
+    height: 40px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px; 
+    margin-left: auto; /* Mantém os botões na extremidade direita */
+}
+
+/* Estilo dos botões "Entrar" e "Cadastre-se" */
+.buttons a,
+.nav-itens a.Entrar,
+.nav-itens a.Cadastro {
+    text-decoration: none;
+    border-radius: 10px; /* Mantém o mesmo border-radius */
+    font-weight: 600; /* Aumenta a espessura da fonte para combinar com a navbar */
+    font-size: 1.1em; /* Ajuste para o mesmo tamanho */
+    padding: 10px 20px; /* Alinha o padding com os itens da navbar */
+    transition: background-color 0.3s ease; /* Transição suave para o botão */
+    display: flex; /* Adiciona o display flex */
+    align-items: center; /* Alinha verticalmente o texto */
+    justify-content: center; /* Centraliza horizontalmente o texto */
+    height: 44px; /* Define uma altura fixa para os botões */
+}
+
+.nav-itens a.Entrar {
+    background-color: #FFFFFF;
+    color: #47525E;
+    border: 1px solid #969FAA;
+    width: 120px; /* Aumente a largura para 160px */
+    height: 40px; /* Mantém a altura */
+}
+
+.nav-itens a.Entrar:hover {
+    background-color: #f0f0f0; /* Cor ao passar o mouse sobre "Entrar" */
+}
+
+.nav-itens a.Cadastro {
+    background-color: rgba(150, 159, 170, 0.18);
+    color: #343F4B;
+    width: 170px; /* Aumente a largura para 200px */
+    height: 40px; /* Mantém a altura */
+}
+
+.nav-itens a.Cadastro:hover {
+    background-color: rgba(150, 159, 170, 0.25); /* Cor ao passar o mouse sobre "Cadastre-se" */
+}
+
+hr.header-separator {
+    border: none;
+    border-top: 1px solid #969FAA;
+    width: 100%; /* Ajuste para 100% para que ocupe toda a largura */
+    max-width: 1200px; /* Limite a largura máxima se necessário */
+    margin: 10px auto; /* Centraliza horizontalmente */
+    border-radius: 5px;
+}
+
+/* Estilo do botão de menu */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    background-color: #333;
+    height: 3px;
+    width: 25px;
+    margin: 4px;
+}
+
+/* Estilo para telas menores */
+@media (max-width: 768px) {
+    .nav-bar {
+        justify-content: space-between; /* Mantém a logo à esquerda e o menu toggle à direita */
+    }
+    
+    .buttons {
+        display: none; /* Oculta os botões na navbar */
+    }
+    
+    .menu-toggle {
+        display: flex; /* Mostra o menu toggle */
+        margin-left: auto; /* Move o menu toggle para a extremidade direita */
+    }
+
+    .nav-itens {
+        display: none; /* Oculte os itens da navbar em telas menores */
+        position: fixed; /* Para que o menu flutue ao abrir */
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 250px;
+        background-color: #fff;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 60px;
+        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+        transform: translateX(100%); /* Inicialmente escondido */
+    }
+
+    .nav-itens.active {
+        display: flex; /* Exibe o menu quando a classe active é adicionada */
+        transform: translateX(0); /* Move o menu para sua posição original */
+    }
+
+    .nav-itens.active .buttons {
+        display: flex; /* Mostra os botões dentro do menu quando ativo */
+        flex-direction: column; /* Alinha os botões em coluna */
+        gap: 10px; /* Espaço entre os botões */
+    }
+}
