@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+
+    <link rel="stylesheet" href="pagina-inicial.css">
+</head>
+<body>
+    <header class="cabecalho"></header>
+        <nav class="nav-bar">
+            <div class="logo-cabecalho">
+                <a href="../pagina inicial/pagina-inicial.html">
+                    <img class="img-logo-cabecalho" src="../../docs/img/zappa-logo-removebg-preview.png" alt="logo">
+                </a>
+            </div>
+
+            <div>
+                <ul class="nav-itens">
+                    <li><a href="/src/pagina-inicial/pagina-inicial.html">Página Inicial</a></li>
+                    <li><a href="/src/despensa/despensa.html">Despensa</a></li>
+                    <li><a href="/src/sobre-nos/sobre-nos.html">Sobre Nós</a></li>
+                    <li><a href="/src/suporte/suporte.html">Suporte</a></li>
+                    <li><a href="/src/perfil/perfil.html">Perfil</a></li>
+                </ul>   
+            </div>
+            
+            <div class="buttons">
+                <a href="../paginaCadastro/html/signin.html" class="Entrar">Entre</a>
+                <a href="../paginaCadastro/html/signup.html" class="Cadastro">Cadastre-se</a>
+            </div>
+        </nav>
+    </header>
+    <hr/>
+    <div class="container">
+        <div class="text-section">
+            <h1>Cadastre.<br>Planeje.<br>Organize.</h1>
+            <p>Com uma ajudinha do Zappa.</p>
+        </div>
+        <div class="image-section">
+            <img src="../../docs/img/banner-inicial.png" alt="Ilustração de pessoas organizando">
+        </div>
+    </div>
+
+    <div class="button-section">
+        <button class="carousel-button" data-image="../../docs/img/banner-inicial.png">Cadastre alimentos</button>
+        <button class="carousel-button" data-image="../../docs/img/edite-alimentos.png">Edite alimentos</button>
+        <button class="carousel-button" data-image="../../docs/img/despensa.png">Despensa</button>
+    </div>
+
+    <div class="image-section">
+        <img id="carousel-image" src="../../docs/img/banner-inicial.png" alt="Ilustração de pessoas organizando">
+    </div>
+</body>
+</html>
+
+<script>
+    const buttons = document.querySelectorAll('.carousel-button');
+    const carouselImage = document.getElementById('carousel-image');
+
+    buttons.forEach(button => {
+        button.addEventListener('mouseover', () => {
+            const newImage = button.getAttribute('data-image');
+            carouselImage.src = newImage;
+        });
+    });
+</script>
