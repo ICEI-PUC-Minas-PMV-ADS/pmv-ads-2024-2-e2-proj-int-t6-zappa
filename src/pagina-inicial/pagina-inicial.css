@@ -108,7 +108,7 @@ hr{
     border-color:#ffffff6c;
   }
 
-.container {
+.inicio {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -139,6 +139,15 @@ hr{
     height: auto;
 }
 
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto; /* Ajusta a posição no centro da tela */
+    padding: 0 20px;
+}
+
 .button-section {
     margin: 20px 0;
 }
@@ -160,9 +169,20 @@ hr{
 
 .image-section {
     margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
 #carousel-image {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
+}
+
+.calendario {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1200px;
+    margin: 40px auto; /* Ajusta a posição no centro da tela */
+    padding: 0 20px;
 }
