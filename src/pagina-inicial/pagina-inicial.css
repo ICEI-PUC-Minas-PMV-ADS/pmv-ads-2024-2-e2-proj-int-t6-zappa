@@ -161,6 +161,8 @@ hr{
     color: white;
     cursor: pointer;
     transition: background-color 0.3s;
+    font-weight: 500;
+    font-size: 1.1em;
 }
 
 .carousel-button:hover {
@@ -185,4 +187,57 @@ hr{
     max-width: 1200px;
     margin: 40px auto; /* Ajusta a posição no centro da tela */
     padding: 0 20px;
+}
+
+.image-calendario {
+    margin-top: 20px;
+    display: flex;
+    width: 50%;
+    height: 50%;
+}
+
+#calendar-image {
+    max-width: 50%;
+    height: auto;
+}
+
+.comece {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 1200px;
+    margin: 40px auto; /* Ajusta a posição no centro da tela */
+    padding: 0 153px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content img {
+    max-width: 350px;
+    height: auto;
+}
+
+.footer-content p {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #333;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.footer-content ul{
+    list-style: none;
+}
+
+.footer-text {
+    text-align: center;
 }
