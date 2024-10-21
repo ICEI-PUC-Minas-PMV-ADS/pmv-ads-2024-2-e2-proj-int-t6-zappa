@@ -16,24 +16,24 @@
                 </a>
             </div>
 
-            <div>
-                <ul class="nav-itens">
-                    <li><a href="/src/pagina-inicial/pagina-inicial.html">Página Inicial</a></li>
-                    <li><a href="/src/despensa/despensa.html">Despensa</a></li>
-                    <li><a href="/src/sobre-nos/sobre-nos.html">Sobre Nós</a></li>
-                    <li><a href="/src/suporte/suporte.html">Suporte</a></li>
-                    <li><a href="/src/perfil/perfil.html">Perfil</a></li>
-                </ul>   
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-            
-            <div class="buttons">
-                <a href="../paginaCadastro/html/signin.html" class="Entrar">Entre</a>
-                <a href="../paginaCadastro/html/signup.html" class="Cadastro">Cadastre-se</a>
-            </div>
-        </nav>
-    </header>
 
-    <hr/>
+            <ul class="nav-itens" id="nav-itens">
+                <li><a href="/src/pagina-inicial/pagina-inicial.html" class="active">Página Inicial</a></li>
+                <li><a href="/src/despensa/despensa.html">Despensa</a></li>
+                <li><a href="/src/sobre-nos/sobre-nos.html">Sobre Nós</a></li>
+                <li><a href="/src/suporte/suporte.html">Suporte</a></li>
+                <li><a href="/src/perfil/perfil.html">Perfil</a></li>
+                <li><a href="../paginaCadastro/html/signin.html" class="Entrar">Entre</a></li>
+                <li><a href="../paginaCadastro/html/signup.html" class="Cadastro">Cadastre-se</a></li>
+            </ul>
+        </nav>
+        <hr class="header-separator">
+    </header>
 
     <div class="inicio">
         <div class="text-section">
@@ -56,17 +56,24 @@
         <img id="carousel-image" src="../../docs/img/slide-cadastro-de-alimentos.png" alt="Demonstração do Cadastro de Alimentos">
     </div>
 
-    <br>
+    <br><br><br>
 
     <div class="calendario">
         <div class="text-section">
             <h1>Faça compras de forma consiênte.</h1>
             <p>Fique de olho no vencimento dos seus produtos de forma dinâmica com o nosso calendário.</p>
         </div>
+        <div class="calendar-section">
+            <img src="../../docs/img/calendar.png" alt="Ícone de calendário" class="calendar-icon">
+            <h3>Ferramenta de Calendário</h3>
+            <p>Criado para ajudar a visualizar sua rotina alimentar.</p>
+        </div>
     </div>
-    <div class="image-calendario">
-        <img id="calendario" src="../../docs/img/slide-calendario.png" alt="Demonstração do Cadastro de Alimentos">
+    <div class="image-section">
+            <img id="carousel-image" src="../../docs/img/slide-calendario.png" alt="Calendário de produtos">
     </div>
+
+    <br><br><br>
 
     <div class="comece">
         <div class="text-section">
