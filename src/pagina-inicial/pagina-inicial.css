@@ -194,24 +194,35 @@ hr{
 }
 
 .button-section {
+    display: flex;
+    justify-content: space-around;
     margin: 20px 0;
 }
 
 .carousel-button {
+    display: flex;
+    align-items: center;
     padding: 10px 20px;
     margin: 0 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #007BFF;
-    color: white;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    background-color: #f5f5f5;
     cursor: pointer;
-    transition: background-color 0.3s;
-    font-weight: 500;
     font-size: 1.1em;
+    font-weight: 500;
+    color: #333;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.carousel-button img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
 }
 
 .carousel-button:hover {
-    background-color: #0056b3;
+    background-color: #e2e2e2;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .image-section {
