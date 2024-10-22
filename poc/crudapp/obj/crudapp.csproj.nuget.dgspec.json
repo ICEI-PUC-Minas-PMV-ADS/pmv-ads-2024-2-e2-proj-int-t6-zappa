@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CASSIA\\source\\repos\\crudapp\\crudapp\\crudapp.csproj": {}
+    "C:\\Users\\Dex\\Source\\Repos\\pmv-ads-2024-2-e2-proj-int-t6-zappa\\poc\\crudapp\\crudapp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CASSIA\\source\\repos\\crudapp\\crudapp\\crudapp.csproj": {
+    "C:\\Users\\Dex\\Source\\Repos\\pmv-ads-2024-2-e2-proj-int-t6-zappa\\poc\\crudapp\\crudapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CASSIA\\source\\repos\\crudapp\\crudapp\\crudapp.csproj",
+        "projectUniqueName": "C:\\Users\\Dex\\Source\\Repos\\pmv-ads-2024-2-e2-proj-int-t6-zappa\\poc\\crudapp\\crudapp.csproj",
         "projectName": "crudapp",
-        "projectPath": "C:\\Users\\CASSIA\\source\\repos\\crudapp\\crudapp\\crudapp.csproj",
-        "packagesPath": "C:\\Users\\CASSIA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CASSIA\\source\\repos\\crudapp\\crudapp\\obj\\",
+        "projectPath": "C:\\Users\\Dex\\Source\\Repos\\pmv-ads-2024-2-e2-proj-int-t6-zappa\\poc\\crudapp\\crudapp.csproj",
+        "packagesPath": "C:\\Users\\Dex\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dex\\Source\\Repos\\pmv-ads-2024-2-e2-proj-int-t6-zappa\\poc\\crudapp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CASSIA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -72,6 +71,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.10, 8.0.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -80,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
