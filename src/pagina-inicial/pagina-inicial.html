@@ -100,18 +100,8 @@
         </div>
         <p class="footer-text">&copy; 2024 Zappa, Inc.</p><br>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
-
-<script>
-    const buttons = document.querySelectorAll('.carousel-button');
-    const carouselImage = document.getElementById('carousel-image');
-
-    buttons.forEach(button => {
-        button.addEventListener('mouseover', () => {
-            const newImage = button.getAttribute('data-image');
-            carouselImage.src = newImage;
-        });
-    });
-</script>
