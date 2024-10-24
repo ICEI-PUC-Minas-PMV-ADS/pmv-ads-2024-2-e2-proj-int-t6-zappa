@@ -143,6 +143,11 @@ main {
     min-height: calc(100vh - 80px);
 }
 
+/* Estilo do logo */
+.logo-cabecalho img {
+    height: 50px; /
+}
+
 hr{
     border-color:#ffffff6c;
   }
@@ -189,34 +194,6 @@ hr{
 
 .button-section {
     margin: 20px 0;
-}
-
-.carousel-button {
-    padding: 10px 20px;
-    margin: 0 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #007BFF;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    font-weight: 500;
-    font-size: 1.1em;
-}
-
-.carousel-button:hover {
-    background-color: #0056b3;
-}
-
-.image-section {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-around;
-}
-
-#carousel-image {
-    max-width: 50%;
-    height: auto;
 }
 
 .calendario {
