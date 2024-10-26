@@ -1,3 +1,0 @@
-# Olá!
-
-Testando projeto
