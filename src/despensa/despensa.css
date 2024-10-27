@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    padding: 10px 0;
+    top: 0;
+}
+
+/* Navegação */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.logo-cabecalho img {
+    height: 50px;
+    margin-right: 40px;
+}
+
+.nav-itens {
+    display: flex;
+    gap: 15px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+.nav-itens li {
+    display: inline;
+}
+
+.nav-itens a {
+    white-space: nowrap;
+    text-decoration: none;
+    color: #5A6978;
+    font-weight: 600;
+    font-size: 1.1em;
+    padding: 10px;
+    letter-spacing: 0.5px;
+}
+
+.nav-itens a:hover {
+    color: #64707ce1;
+}
+
+.nav-itens a.active {
+    background-color: rgba(150, 159, 170, 0.18);
+    border-radius: 10px;
+    width: 170px;
+    height: 40px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+}
+
+.buttons a,
+.nav-itens a.Entrar,
+.nav-itens a.Cadastro {
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+}
+
+.nav-itens a.Entrar {
+    background-color: #FFFFFF;
+    color: #47525E;
+    border: 1px solid #969FAA;
+    width: 120px;
+    height: 40px;
+}
+
+.nav-itens a.Entrar:hover {
+    background-color: #f0f0f0;
+}
+
+.nav-itens a.Cadastro {
+    background-color: rgba(150, 159, 170, 0.18);
+    color: #343F4B;
+    width: 170px;
+    height: 40px;
+}
+
+.nav-itens a.Cadastro:hover {
+    background-color: rgba(150, 159, 170, 0.25);
+}
+
+hr.header-separator {
+    border: none;
+    border-top: 1px solid #d8d8d8;
+    width: 100%;
+    max-width: 1200px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+/* Menu Toggle */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    background-color: #333;
+    height: 3px;
+    width: 25px;
+    margin: 4px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+}
+
+body, html {
+    height: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 80px);
+}
+
+/* Estilo do logo */
+.logo-cabecalho img {
+    height: 50px; /
+}
+
+hr{
+    border-color:#ffffff6c;
+  }
+
+.inicio {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.text-section {
+    max-width: 350px;
+    text-align: left;
+}
+
+.text-section h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.text-section p {
+    font-size: 1.2em;
+    color: #666;
+    margin-top: 10px;
+}
+
+.image-section img {
+    max-width: 400px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.button-section {
+    margin: 20px 0;
+}
+
+.calendario {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.image-calendario {
+    margin-top: 20px;
+    display: flex;
+    width: 50%;
+    height: 50%;
+}
+
+#calendar-image {
+    max-width: 50%;
+    height: auto;
+}
+
+.comece {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 153px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content img {
+    max-width: 350px;
+    height: auto;
+}
+
+.footer-content p {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #333;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.footer-content ul{
+    list-style: none;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.space {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
