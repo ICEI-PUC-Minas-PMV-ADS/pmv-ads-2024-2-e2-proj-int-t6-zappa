@@ -1,6 +1,7 @@
 ﻿using front_back.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using NuGet.Protocol;
 
 namespace front_back.Controllers
 {
@@ -31,6 +32,28 @@ namespace front_back.Controllers
                 await _context.SaveChangesAsync();
             }
             return View(usuario);
+        }
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null) 
+                    return NotFound();
+            var dados = await _context.Usuarios.FindAsync(id);
+            if (dados == null)
+                return NotFound();
+
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> Edit(int id, Usuario usuario)
+        {
+            if (id != usuario.Id)
+                return NotFound();
+            if (ModelState.IsValid)
+            {
+                _context.Usuarios.Update(usuario);
+                await _context.SaveChangesAsync();
+            }
+            return View();
         }
     }
 
