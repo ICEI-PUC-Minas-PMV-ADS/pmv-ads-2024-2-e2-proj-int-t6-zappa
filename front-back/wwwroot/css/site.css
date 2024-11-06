@@ -16,7 +16,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 10px 20px;
     position: relative;
@@ -25,6 +25,16 @@ header {
 .logo-cabecalho img {
     height: 50px;
     margin-right: 40px;
+}
+
+/* Remove o fundo, bordas e arredondamento do link com a imagem */
+.nav-itens li .no-style {
+    background: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-shadow: none !important; /* Remove qualquer sombra que possa estar aplicando o fundo cinza */
 }
 
 .nav-itens {
@@ -311,4 +321,66 @@ hr {
 
 .footer-text {
     text-align: center;
+}
+
+/* Estilos para o formulário de cadastro */
+.Cadastro {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Cadastro .col-md-4 {
+    width: 100%; /* Ajuste a largura do contêiner do formulário */
+    max-width: 600px; /* Define uma largura máxima para o formulário */
+}
+
+.Cadastro form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaçamento entre os elementos do formulário */
+}
+
+.Cadastro .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.Cadastro .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.Cadastro .form-control {
+    width: 100%; /* Largura total para os campos de entrada */
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.Cadastro .form-control:focus {
+    border-color: #007bff; /* Cor de borda ao focar */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3); /* Sombra ao focar */
+    outline: none;
+}
+
+.Cadastro .btn-primary {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Cadastro .btn-primary:hover {
+    background-color: #0056b3; /* Cor ao passar o mouse */
+}
+
+.Cadastro .text-danger {
+    font-size: 0.875rem;
+    margin-top: 5px;
 }
