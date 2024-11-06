@@ -384,3 +384,23 @@ hr {
     font-size: 0.875rem;
     margin-top: 5px;
 }
+.titulo-cadastro {
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 20px; /* Adiciona um espaçamento abaixo do título */
+}
+
+.Cadastro {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Cadastro .col-md-4 {
+    width: 100%; /* Ajuste a largura do contêiner do formulário */
+    max-width: 600px; /* Define uma largura máxima para o formulário */
+}
+
+/* Oculta os campos no frontend */
+#DespensaVirtual, #HistoricoDespensaVirtual, #Login {
+    display: none;
+}
