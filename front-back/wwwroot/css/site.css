@@ -229,45 +229,33 @@ hr {
     justify-content: space-around;
 }
 
-#carousel-image {
-    max-width: 50%;
-    height: auto;
+.cadastrealimentos {
+    background-color: #FFFFFF;
+    color: #47525E;
+    border: 1px solid #969FAA;
+    width: 120px;
+    height: 40px;
 }
 
-.calendario {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
+.editealimentos {
+    background-color: #FFFFFF;
+    color: #47525E;
+    border: 1px solid #969FAA;
+    width: 120px;
+    height: 40px;
 }
 
-.calendar-section {
-    text-align: center;
-    margin-left: 20px;
+.despensaalimentos {
+    background-color: #FFFFFF;
+    color: #47525E;
+    border: 1px solid #969FAA;
+    width: 120px;
+    height: 40px;
 }
 
-.calendar-icon {
-    width: 50px;
-    height: 50px;
-    display: block;
-    margin: 0 auto;
-}
-
-.calendar-section h3 {
-    margin-top: 10px;
-    font-size: 1.2rem;
-    color: #333;
-    font-weight: bold;
-}
-
-.calendar-section p {
-    margin-top: 5px;
-    font-size: 0.95rem;
-    color: #555;
-}
+    .nav-itens a.Entrar:hover {
+        background-color: #0056b3;
+    }
 
 .comece {
     display: flex;
