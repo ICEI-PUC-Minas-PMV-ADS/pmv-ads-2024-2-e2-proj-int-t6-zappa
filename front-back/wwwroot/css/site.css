@@ -153,7 +153,6 @@ main {
 /* Estilo do logo */
 .logo-cabecalho img {
     height: 50px;
-    /
 }
 
 hr {
@@ -191,14 +190,6 @@ hr {
     height: auto;
 }
 
-.container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    max-width: 1200px;
-    margin: auto; /* Ajusta a posição no centro da tela */
-    padding: 0 20px;
-}
 
 .button-section {
     display: flex;
