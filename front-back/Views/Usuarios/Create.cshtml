@@ -9,7 +9,7 @@
     <p></p>
     <hr />
 
-    <!-- Adicione esta parte para exibir a mensagem de sucesso -->
+    <!-- Exibir a mensagem de sucesso -->
     @if (TempData["SuccessMessage"] != null)
     {
         <div class="alert alert-success">
@@ -19,7 +19,7 @@
 
     <div class="Cadastro">
         <div class="col-md-4">
-            <form asp-action="Create">
+            <form asp-action="Create" method="post">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="form-group">
                     <label asp-for="Name" class="control-label"></label>
@@ -37,32 +37,15 @@
                     <span asp-validation-for="DataNascimento" class="text-danger"></span>
                 </div>
 
-                <!-- Remova ou comente os campos indesejados -->
-                <!--
-                <div class="form-group">
-                    <label asp-for="Login" class="control-label"></label>
-                    <input asp-for="Login" class="form-control" />
-                    <span asp-validation-for="Login" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="DespensaVirtual" class="control-label"></label>
-                    <input asp-for="DespensaVirtual" class="form-control" />
-                    <span asp-validation-for="DespensaVirtual" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="HistoricoDespensaVirtual" class="control-label"></label>
-                    <input asp-for="HistoricoDespensaVirtual" class="form-control" />
-                    <span asp-validation-for="HistoricoDespensaVirtual" class="text-danger"></span>
-                </div>
-                -->
                 <div class="form-group">
                     <label asp-for="Senha" class="control-label"></label>
-                    <input asp-for="Senha" class="form-control" />
+                    <input asp-for="Senha" class="form-control" type="password" />
                     <span asp-validation-for="Senha" class="text-danger"></span>
                 </div>
+
                 <div class="form-group d-flex justify-content-between">
-                    <input type="submit" value="Create" class="btn btn-primary" />
-                    <a asp-action="Index" class="btn btn-link">Back to List</a>
+                    <input type="submit" value="Criar" class="btn btn-primary" />
+                    <a asp-action="Index" class="btn btn-link">Voltar para a Lista</a>
                 </div>
             </form>
         </div>

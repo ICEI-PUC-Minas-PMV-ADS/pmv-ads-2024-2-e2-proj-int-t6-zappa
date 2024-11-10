@@ -37,27 +37,22 @@ header {
     box-shadow: none !important; /* Remove qualquer sombra que possa estar aplicando o fundo cinza */
 }
 
+/* Estilo para os itens da navbar */
 .nav-itens {
     display: flex;
-    gap: 15px;
-    margin-left: 20px;
-    flex-wrap: wrap;
-    justify-content: flex-start;
     align-items: center;
+    gap: 15px; /* Espaçamento entre os itens */
 }
 
     .nav-itens li {
         display: inline;
     }
 
+    /* Estilo base para os links da navbar */
     .nav-itens a {
-        white-space: nowrap;
-        text-decoration: none;
-        color: #5A6978;
-        font-weight: 600;
-        font-size: 1.1em;
-        padding: 10px;
-        letter-spacing: 0.5px;
+        padding: 10px 15px; /* Espaçamento interno uniforme para todos os links */
+        text-decoration: none; /* Remove sublinhado */
+        color: black; /* Define a cor do texto */
     }
 
         .nav-itens a:hover {
@@ -84,12 +79,13 @@ header {
         border-radius: 10px;
         font-weight: 600;
         font-size: 1.1em;
-        padding: 10px 20px;
+        padding: 10px 15px;
         transition: background-color 0.3s ease;
-        display: flex;
+        display: inline-flex;
         align-items: center;
         justify-content: center;
-        height: 44px;
+        height: auto;
+        margin: 0; /* Remove margens */
     }
 
 .nav-itens a.Entrar {
@@ -101,7 +97,7 @@ header {
 }
 
     .nav-itens a.Entrar:hover {
-        background-color: #f0f0f0;
+        background-color: #0056b3;
     }
 
 .nav-itens a.Cadastro {
@@ -112,7 +108,7 @@ header {
 }
 
     .nav-itens a.Cadastro:hover {
-        background-color: rgba(150, 159, 170, 0.25);
+        background-color: #0056b3;
     }
 
 hr.header-separator {
@@ -323,11 +319,14 @@ hr {
     text-align: center;
 }
 
-/* Estilos para o formulário de cadastro */
+/* Ajuste específico para o botão "Cadastre-se" */
 .Cadastro {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+    background-color: #007bff; /* Cor de fundo para destacar */
+    color: white;
+    padding: 10px 15px; /* Espaçamento interno */
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none; /* Remove sublinhado */
 }
 
 .Cadastro .col-md-4 {
