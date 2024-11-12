@@ -1,6 +1,6 @@
 /* Centralizando o conteúdo na página */
 * {
-    margin: 0;
+    margin: 10;
     padding: 0;
     box-sizing: border-box;
 }
@@ -44,27 +44,27 @@ header {
     gap: 15px; /* Espaçamento entre os itens */
 }
 
-    .nav-itens li {
+.nav-itens li {
         display: inline;
     }
 
-    /* Estilo base para os links da navbar */
-    .nav-itens a {
+/* Estilo base para os links da navbar */
+.nav-itens a {
         padding: 10px 15px; /* Espaçamento interno uniforme para todos os links */
         text-decoration: none; /* Remove sublinhado */
         color: black; /* Define a cor do texto */
     }
 
-        .nav-itens a:hover {
+.nav-itens a:hover {
             color: #64707ce1;
         }
 
-        .nav-itens a.active {
+.nav-itens a.active {
             background-color: rgba(150, 159, 170, 0.18);
             border-radius: 10px;
             width: 170px;
             height: 40px;
-        }
+}
 
 .buttons {
     display: flex;
@@ -72,9 +72,9 @@ header {
     margin-left: auto;
 }
 
-    .buttons a,
-    .nav-itens a.Entrar,
-    .nav-itens a.Cadastro {
+.buttons a,
+.nav-itens a.Entrar,
+.nav-itens a.Cadastro {
         text-decoration: none;
         border-radius: 10px;
         font-weight: 600;
@@ -96,18 +96,11 @@ header {
     height: 40px;
 }
 
-    .nav-itens a.Entrar:hover {
+.nav-itens a.Entrar:hover {
         background-color: #0056b3;
     }
 
-.nav-itens a.Cadastro {
-    background-color: rgba(150, 159, 170, 0.18);
-    color: #343F4B;
-    width: 170px;
-    height: 40px;
-}
-
-    .nav-itens a.Cadastro:hover {
+.nav-itens a.Cadastro:hover {
         background-color: #0056b3;
     }
 
@@ -127,7 +120,7 @@ hr.header-separator {
     cursor: pointer;
 }
 
-    .menu-toggle span {
+.menu-toggle span {
         background-color: #333;
         height: 3px;
         width: 25px;
@@ -135,8 +128,8 @@ hr.header-separator {
     }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #fff;
+    font-family: Arial;
+    color: gray;
 }
 
 body, html {
@@ -150,152 +143,27 @@ main {
     min-height: calc(100vh - 80px); /* Altura da tela menos a altura do cabeçalho */
 }
 
-/* Estilo do logo */
-.logo-cabecalho img {
-    height: 50px;
+.container {
+    display: inline-block;
+    align-items: center; /* Centraliza verticalmente a imagem e o texto */
+    justify-content: space-between; /* Espaça a imagem e o texto */
 }
 
-hr {
-    border-color: #ffffff6c;
+.headline {
+    color: #333;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
 }
 
-.inicio {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    max-width: 1200px;
-    margin: 40px auto; /* Ajusta a posição no centro da tela */
-    padding: 0 20px;
-}
-
-.text-section {
-    max-width: 350px;
-    text-align: left;
-}
-
-    .text-section h1 {
-        font-size: 2.5em;
-        font-weight: bold;
-        color: #333;
-    }
-
-    .text-section p {
-        font-size: 1.2em;
-        color: #666;
-        margin-top: 10px;
-    }
-
-.image-section img {
-    max-width: 400px;
+.hero-image {
+    max-width: 2%; /* Ajusta o tamanho da imagem para caber ao lado do texto */
     height: auto;
 }
 
-
-.button-section {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px 0;
-}
-
-.carousel-button {
-    display: flex;
-    align-items: center;
-    padding: 10px 20px;
-    margin: 0 10px;
-    border: 1px solid #dcdcdc;
-    border-radius: 10px;
-    background-color: #f5f5f5;
-    cursor: pointer;
-    font-size: 1.1em;
-    font-weight: 500;
-    color: #333;
-    transition: background-color 0.3s, box-shadow 0.3s;
-}
-
-    .carousel-button img {
-        width: 24px;
-        height: 24px;
-        margin-right: 10px;
-    }
-
-    .carousel-button:hover {
-        background-color: #e2e2e2;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    }
-
-.image-section {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.cadastrealimentos {
-    background-color: #FFFFFF;
-    color: #47525E;
-    border: 1px solid #969FAA;
-    width: 120px;
-    height: 40px;
-}
-
-.editealimentos {
-    background-color: #FFFFFF;
-    color: #47525E;
-    border: 1px solid #969FAA;
-    width: 120px;
-    height: 40px;
-}
-
-.despensaalimentos {
-    background-color: #FFFFFF;
-    color: #47525E;
-    border: 1px solid #969FAA;
-    width: 120px;
-    height: 40px;
-}
-
-    .nav-itens a.Entrar:hover {
-        background-color: #0056b3;
-    }
-
-.comece {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    max-width: 1200px;
-    margin: 40px auto; /* Ajusta a posição no centro da tela */
-    padding: 0 153px;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-    .footer-content img {
-        max-width: 350px;
-        height: auto;
-    }
-
-    .footer-content p {
-        font-size: 1.3em;
-        font-weight: bold;
-        color: #333;
-    }
-
-    .footer-content a {
-        text-decoration: none;
-        color: #666;
-        font-weight: 500;
-        font-size: 1.1em;
-    }
-
-    .footer-content ul {
-        list-style: none;
-    }
-
-.footer-text {
-    text-align: center;
+footer {
+    display: block;
+    margin: 0 auto;
 }
 
 /* Ajuste específico para o botão "Cadastre-se" */
@@ -362,10 +230,7 @@ hr {
     font-size: 0.875rem;
     margin-top: 5px;
 }
-.titulo-cadastro {
-    text-align: center; /* Centraliza o texto */
-    margin-bottom: 20px; /* Adiciona um espaçamento abaixo do título */
-}
+
 
 .Cadastro {
     display: flex;
