@@ -1,6 +1,6 @@
 /* Centralizando o conteúdo na página */
 * {
-    margin: 10;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -143,10 +143,53 @@ main {
     min-height: calc(100vh - 80px); /* Altura da tela menos a altura do cabeçalho */
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .container {
-    display: inline-block;
+    display: flex;
     align-items: center; /* Centraliza verticalmente a imagem e o texto */
     justify-content: space-between; /* Espaça a imagem e o texto */
+    width: 80%; /* Ajusta a largura para dar um espaço adequado ao layout */
+    margin-bottom: 20px; /* Espaço entre o container e o submenu */
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column; /* Coloca as divs headline em coluna */
+}
+
+.hero-image {
+    max-width: 50%; /* Ajusta o tamanho da imagem para caber ao lado do texto */
+    height: auto;
+}
+
+.submenu {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espaçamento entre os botões */
+    margin-top: 20px;
+    text-align: center;
+    width: 100%; /* Faz a submenu ocupar 100% da largura */
+}
+
+.imagemgrande {
+    margin-top: 20px;
+    text-align: center;
+}
+
+    .imagemgrande img {
+        max-width: 80%; /* Ajusta a imagem grande para não ultrapassar a largura da página */
+        height: auto;
+    }
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .headline {
@@ -154,11 +197,6 @@ main {
     font-size: 60px;
     font-weight: bold;
     margin: 0;
-}
-
-.hero-image {
-    max-width: 2%; /* Ajusta o tamanho da imagem para caber ao lado do texto */
-    height: auto;
 }
 
 footer {
