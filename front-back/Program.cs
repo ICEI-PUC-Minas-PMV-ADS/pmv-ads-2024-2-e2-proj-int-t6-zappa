@@ -6,7 +6,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Adiciona serviços ao contêiner.
 builder.Services.AddControllersWithViews();
-
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 
 // Configura o contexto do banco de dados com a string de conexão
@@ -22,6 +21,14 @@ builder.Services.AddLogging(logging =>
     logging.SetMinimumLevel(LogLevel.Debug);  // Garante que logs de nível Debug sejam exibidos
 });
 
+// Configura o suporte a sessão
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30); // Define o tempo de expiração da sessão
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
+
 var app = builder.Build();
 
 // Configura o pipeline de requisição HTTP.
@@ -35,6 +42,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseSession(); // Ativa o uso de sessão no pipeline de requisição
 
 app.UseAuthorization();
 

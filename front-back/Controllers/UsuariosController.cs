@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;  // Importar o namespace para ILogger
+using Microsoft.AspNetCore.Http;     // Para manipular sessões
 
 namespace front_back.Controllers
 {
@@ -10,64 +11,40 @@ namespace front_back.Controllers
         private readonly AppDbContext _context;
         private readonly ILogger<UsuariosController> _logger;  // Declarar o logger
 
-        // Injetar o AppDbContext e ILogger
         public UsuariosController(AppDbContext context, ILogger<UsuariosController> logger)
         {
             _context = context;
-            _logger = logger;  // Atribuir o logger injetado
+            _logger = logger;
         }
 
-        public async Task<IActionResult> Index()
-        {
-            var dados = await _context.Usuarios.ToListAsync();
-            return View(dados);
-        }
-
-        public ActionResult Create()
+        // Action para exibir a página de login
+        public IActionResult Login()
         {
             return View();
         }
 
+        // Action para processar o login (POST)
         [HttpPost]
-        public async Task<IActionResult> Create(Usuario usuario)
+        public async Task<IActionResult> Login(string email, string senha)
         {
-            // Adicionar o log para verificar os dados recebidos
-            _logger.LogInformation("Tentando criar um novo usuário: Nome: {Name}, Email: {Email}, Senha: {Senha}",
-                usuario.Name, usuario.Email, usuario.Senha); // Usando ILogger
+            // Buscar usuário pelo email e senha
+            var usuario = await _context.Usuarios
+                .FirstOrDefaultAsync(u => u.Email == email && u.Senha == senha);
 
-            if (ModelState.IsValid)
+            if (usuario != null)
             {
-                _context.Add(usuario);
-                await _context.SaveChangesAsync();
-                TempData["SuccessMessage"] = "Cadastro realizado com sucesso!";
-                return RedirectToAction(nameof(Index)); // Redireciona para a lista de usuários após o cadastro
+                // Armazenar dados do usuário na sessão
+                HttpContext.Session.SetInt32("UserId", usuario.Id);
+                HttpContext.Session.SetString("UserName", usuario.Name);
+
+                TempData["SuccessMessage"] = "Login realizado com sucesso!";
+                return RedirectToAction("Index");
             }
-            return View(usuario); // Se o modelo não for válido, retorna a mesma view com os erros
-        }
-
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-                return NotFound();
-            var dados = await _context.Usuarios.FindAsync(id);
-            if (dados == null)
-                return NotFound();
-
-            return View(dados);
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> Edit(int id, Usuario usuario)
-        {
-            if (id != usuario.Id)
-                return NotFound();
-            if (ModelState.IsValid)
+            else
             {
-                _context.Usuarios.Update(usuario);
-                await _context.SaveChangesAsync();
-                return RedirectToAction("Index"); // Redirecionar após edição
+                ModelState.AddModelError("", "Credenciais inválidas.");
+                return View();
             }
-            return View(usuario); // Retorna a view com erros
         }
     }
 }

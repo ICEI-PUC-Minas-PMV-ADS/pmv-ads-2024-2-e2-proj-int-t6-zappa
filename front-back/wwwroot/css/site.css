@@ -100,6 +100,14 @@ header {
         background-color: #0056b3;
     }
 
+.nav-itens a.Cadastro {
+    background-color: #FFFFFF;
+    color: #47525E;
+    border: 1px solid #969FAA;
+    width: 170px;
+    height: 40px;
+}
+
 .nav-itens a.Cadastro:hover {
         background-color: #0056b3;
     }
@@ -199,80 +207,85 @@ footer {
     margin: 0 auto;
 }
 
-/* Ajuste específico para o botão "Cadastre-se" */
-.Cadastro {
-    background-color: #007bff; /* Cor de fundo para destacar */
-    color: white;
-    padding: 10px 15px; /* Espaçamento interno */
-    border-radius: 4px;
-    text-align: center;
-    text-decoration: none; /* Remove sublinhado */
-}
-
-.Cadastro .col-md-4 {
-    width: 100%; /* Ajuste a largura do contêiner do formulário */
-    max-width: 600px; /* Define uma largura máxima para o formulário */
-    align-content: center;
-    font-size: x-large;
-}
-
-.Cadastro form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px; /* Espaçamento entre os elementos do formulário */
-}
-
-.Cadastro .form-group {
-    display: flex;
-    flex-direction: column;
-}
-
-.Cadastro .form-group label {
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.Cadastro .form-control {
-    width: 100%; /* Largura total para os campos de entrada */
-    padding: 10px;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.Cadastro .form-control:focus {
-    border-color: #007bff; /* Cor de borda ao focar */
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3); /* Sombra ao focar */
-    outline: none;
-}
-
-.Cadastro .btn-primary {
-    padding: 10px 20px;
-    font-size: 1rem;
-    font-weight: bold;
-    background-color: #007bff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.Cadastro .btn-primary:hover {
-    background-color: #0056b3; /* Cor ao passar o mouse */
-}
-
-.Cadastro .text-danger {
-    font-size: 0.875rem;
-    margin-top: 5px;
-}
-
-
+/* Centraliza o contêiner principal do formulário */
 .Cadastro {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    align-items: center;
+    background-color: #f8f9fa; /* Cor de fundo para a página */
+    padding: 20px;
 }
 
+    /* Estilos do contêiner do formulário */
+    .Cadastro .col-md-4 {
+        width: 100%; /* Largura total para dispositivos móveis */
+        max-width: 600px; /* Define uma largura máxima para o formulário */
+        background-color: #ffffff; /* Cor de fundo para o formulário */
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ao redor do formulário */
+    }
+
+    /* Estilos dos elementos do formulário */
+    .Cadastro form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px; /* Espaçamento entre os elementos do formulário */
+    }
+
+    .Cadastro .form-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+        .Cadastro .form-group label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+    .Cadastro .form-control {
+        width: 100%; /* Largura total para os campos de entrada */
+        padding: 10px;
+        font-size: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+        .Cadastro .form-control:focus {
+            border-color: #007bff; /* Cor de borda ao focar */
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.3); /* Sombra ao focar */
+            outline: none;
+        }
+
+    .Cadastro .btn-primary {
+        padding: 10px 20px;
+        font-size: 1rem;
+        font-weight: bold;
+        background-color: #007bff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .Cadastro .btn-primary:hover {
+            background-color: #0056b3; /* Cor ao passar o mouse */
+        }
+
+    .Cadastro .text-danger {
+        font-size: 0.875rem;
+        margin-top: 5px;
+    }
+
+    .Cadastro .btn-link {
+        color: #007bff;
+        text-decoration: none;
+        font-size: 0.875rem;
+    }
+
+        .Cadastro .btn-link:hover {
+            text-decoration: underline;
+        }
 
 
 /* Oculta os campos no frontend */
