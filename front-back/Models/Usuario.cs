@@ -15,7 +15,6 @@ namespace front_back.Models
         public string Email { get; set; }
         [Required(ErrorMessage = "Obrigatório inserir a data de nascimento")]
         public DateTime DataNascimento { get; set; }
-        [Required(ErrorMessage = "Obrigatório inserir o login")]
         public string Login { get; set; }
         public string DespensaVirtual { get; set; } 
         public string HistoricoDespensaVirtual { get; set; }

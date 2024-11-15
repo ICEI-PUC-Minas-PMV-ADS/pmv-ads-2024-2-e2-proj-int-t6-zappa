@@ -1,20 +1,46 @@
 ﻿using front_back.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;  // Importar o namespace para ILogger
-using Microsoft.AspNetCore.Http;     // Para manipular sessões
+using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Http;
 
 namespace front_back.Controllers
 {
     public class UsuariosController : Controller
     {
         private readonly AppDbContext _context;
-        private readonly ILogger<UsuariosController> _logger;  // Declarar o logger
+        private readonly ILogger<UsuariosController> _logger;
 
         public UsuariosController(AppDbContext context, ILogger<UsuariosController> logger)
         {
             _context = context;
             _logger = logger;
+        }
+
+        // Action para exibir a lista de usuários
+        public async Task<IActionResult> Index()
+        {
+            var dados = await _context.Usuarios.ToListAsync();
+            return View(dados);
+        }
+
+        // Action para exibir a página de cadastro de usuário
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create(Usuario usuario)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Add(usuario);
+                await _context.SaveChangesAsync();
+                TempData["SuccessMessage"] = "Cadastro realizado com sucesso!";
+                return RedirectToAction(nameof(Index));
+            }
+            return View(usuario);
         }
 
         // Action para exibir a página de login
@@ -27,13 +53,11 @@ namespace front_back.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(string email, string senha)
         {
-            // Buscar usuário pelo email e senha
             var usuario = await _context.Usuarios
                 .FirstOrDefaultAsync(u => u.Email == email && u.Senha == senha);
 
             if (usuario != null)
             {
-                // Armazenar dados do usuário na sessão
                 HttpContext.Session.SetInt32("UserId", usuario.Id);
                 HttpContext.Session.SetString("UserName", usuario.Name);
 
