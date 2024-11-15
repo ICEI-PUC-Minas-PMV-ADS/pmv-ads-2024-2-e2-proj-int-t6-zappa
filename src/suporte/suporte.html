@@ -15,22 +15,28 @@
     <header class="cabecalho">
         <nav class="nav-bar">
             <div class="logo-cabecalho">
-                <a href="./espensa.html">
+                <a href="./pagina-inicial.html">
                     <img class="img-logo-cabecalho" src="../../docs/img/zappa-logo-removebg-preview.png" alt="logo">
                 </a>
             </div>
 
-            <ul class="nav-itens">
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-itens" id="nav-itens">
                 <li><a href="/src/pagina-inicial/pagina-inicial.html">Página Inicial</a></li>
                 <li><a href="/src/despensa/despensa.html">Despensa</a></li>
                 <li><a href="/src/sobre-nos/sobre-nos.html">Sobre Nós</a></li>
                 <li><a href="/src/suporte/suporte.html">Suporte</a></li>
                 <li><a href="/src/perfil/perfil.html">Perfil</a></li>
+                <li><a href="/login/login.html" class="Entrar">Entre</a></li>
+                <li><a href="/cadastro/cadastro.html" class="Cadastro">Cadastre-se</a></li>
             </ul>
-
-            <button type="button" class="btn btn-secondary"
-                style="background: rgb(184, 184, 184); border-color: rgb(184, 184, 184);">Sair</button>
         </nav>
+        <hr class="header-separator">
     </header>
 
     <table class="allWidth whiteColor smallMTop">
@@ -85,7 +91,7 @@
         <tr class="justifyCenter allWidth smallMTop">
             <td class="">
                 <div class="card cardStyle">
-                    <img src="" class="card-img-top revertM" alt="...">
+                    <img src="../../docs/img/maça_verde-removebg-preview.png" class="card-img-top revertM" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">André Dexheimer</h5>
                     </div>
@@ -93,7 +99,7 @@
             </td>
             <td class="">
                 <div class="card cardStyle">
-                    <img src="" class="card-img-top revertM" alt="...">
+                    <img src="../../docs/img/maça_vermelha-removebg-preview.png" class="card-img-top revertM" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Cássia de Arruda</h5>
                     </div>
@@ -101,7 +107,7 @@
             </td>
             <td class="">
                 <div class="card cardStyle">
-                    <img src="" class="card-img-top revertM" alt="...">
+                    <img src="../../docs/img/maça_amarela-removebg-preview.png" class="card-img-top revertM" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">César Freitas</h5>
                     </div>
@@ -109,9 +115,9 @@
             </td>
             <td class="">
                 <div class="card cardStyle">
-                    <img src="" class="card-img-top revertM" alt="...">
+                    <img src="../../docs/img/maça_azul-removebg-preview.png" class="card-img-top revertM" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Fernanda Sayuri/h5>
+                        <h5 class="card-title">Fernanda Sayuri<h5>
                     </div>
                 </div>
             </td>
@@ -140,6 +146,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <script src="/codigo-fonte/src/contato/contato.js"></script>
+    <script src="suporte.js"></script>
 </body>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
