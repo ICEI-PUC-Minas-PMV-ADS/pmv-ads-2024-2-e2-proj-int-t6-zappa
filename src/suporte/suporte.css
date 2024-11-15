@@ -345,11 +345,18 @@ hr{
     font-weight: 500 !important;
 }
 
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    display: flex;
+    justify-content: space-around;
+}
+
 .cardStyle {
     width: 20rem;
     margin-bottom: .75rem;
-    display: flex;
-    justify-content: space-around;
 }
 
 .miniMLeft {
