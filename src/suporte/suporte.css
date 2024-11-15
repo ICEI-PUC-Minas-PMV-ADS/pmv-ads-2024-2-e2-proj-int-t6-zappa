@@ -22,13 +22,12 @@ main {
 
 header {
     width: 100%;
-    padding: 0;
-    background-color: #f8f9fa;
+    padding: 10px 0;
     top: 0;
-    margin: 0;
-   
 }
 
+
+/* Navegação */
 .nav-bar {
     display: flex;
     justify-content: space-between;
@@ -36,17 +35,22 @@ header {
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px 20px;
+    position: relative;
 }
 
 .logo-cabecalho img {
-    height: 50px; /
+    height: 50px;
+    margin-right: 40px;
 }
 
 .nav-itens {
-    list-style: none;
     display: flex;
     gap: 15px;
-    margin-top: 2%;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    align-items: center;
+    margin-bottom: -4px;
 }
 
 .nav-itens li {
@@ -54,50 +58,112 @@ header {
 }
 
 .nav-itens a {
+    white-space: nowrap;
     text-decoration: none;
-    color: #333;
-    font-weight: 500;
+    color: #5A6978;
+    font-weight: 600;
     font-size: 1.1em;
     padding: 10px;
-    transition: color 0.3s ease;
+    letter-spacing: 0.5px;
 }
 
 .nav-itens a:hover {
-    color: #007bff;
+    color: #64707ce1;
+}
+
+.nav-itens a.active {
+    background-color: rgba(150, 159, 170, 0.18);
+    border-radius: 10px;
+    width: 170px;
+    height: 40px;
 }
 
 .buttons {
     display: flex;
     gap: 10px;
+    margin-left: auto;
 }
 
-.buttons a {
+.buttons a,
+.nav-itens a.Entrar,
+.nav-itens a.Cadastro {
     text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-weight: 500;
+    border-radius: 10px;
+    font-weight: 600;
     font-size: 1.1em;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
 }
 
-.Entrar {
-    color: #333;
-    background-color: #f8f9fa;
-    border: 1px solid #ddd;
+.nav-itens a.Entrar {
+    background-color: #FFFFFF;
+    color: #47525E;
+    border: 1px solid #969FAA;
+    width: 120px;
+    height: 40px;
 }
 
-.Entrar:hover {
-    background-color: #e2e6ea;
+.nav-itens a.Entrar:hover {
+    background-color: #f0f0f0;
 }
 
-.Cadastro {
-    color: #fff;
-    background-color: #007bff;
+.nav-itens a.Cadastro {
+    background-color: rgba(150, 159, 170, 0.18);
+    color: #343F4B;
+    width: 170px;
+    height: 40px;
+}
+
+.nav-itens a.Cadastro:hover {
+    background-color: rgba(150, 159, 170, 0.25);
+}
+
+hr.header-separator {
     border: none;
+    border-top: 1px solid #d8d8d8;
+    width: 100%;
+    max-width: 1200px;
+    margin: 10px auto;
+    border-radius: 5px;
 }
 
-.Cadastro:hover {
-    background-color: #0056b3;
+/* Menu Toggle */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    background-color: #333;
+    height: 3px;
+    width: 25px;
+    margin: 4px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+}
+
+body, html {
+    height: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 80px); /* Altura da tela menos a altura do cabeçalho */
+}
+
+/* Estilo do logo */
+.logo-cabecalho img {
+    height: 50px; /
 }
 
 hr{
@@ -281,6 +347,9 @@ hr{
 
 .cardStyle {
     width: 20rem;
+    margin-bottom: .75rem;
+    display: flex;
+    justify-content: space-around;
 }
 
 .miniMLeft {
