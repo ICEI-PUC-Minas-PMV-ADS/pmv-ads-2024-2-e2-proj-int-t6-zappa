@@ -33,6 +33,7 @@ header {
     flex-wrap: wrap;
     justify-content: flex-start; 
     align-items: center;
+    margin-bottom: -4px;
 }
 
 .nav-itens li {
