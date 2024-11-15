@@ -109,9 +109,15 @@ header {
     background-color: rgba(150, 159, 170, 0.25);
 }
 
+hr{
+    border-color:#ffffff6c;
+  }
+
+  
+
 hr.header-separator {
     border: none;
-    border-top: 1px solid #969FAA;
+    border-top: 1px solid #d8d8d8;;
     width: 100%;
     max-width: 1200px;
     margin: 10px auto;
