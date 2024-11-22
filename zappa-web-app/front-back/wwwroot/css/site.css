@@ -1,0 +1,294 @@
+/* Centralizando o conteúdo na página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    padding: 10px 0;
+    top: 0;
+}
+
+/* Navegação */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.logo-cabecalho img {
+    height: 50px;
+    margin-right: 40px;
+}
+
+/* Remove o fundo, bordas e arredondamento do link com a imagem */
+.nav-itens li .no-style {
+    background: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-shadow: none !important; /* Remove qualquer sombra que possa estar aplicando o fundo cinza */
+}
+
+/* Estilo para os itens da navbar */
+.nav-itens {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espaçamento entre os itens */
+}
+
+.nav-itens li {
+        display: inline;
+    }
+
+/* Estilo base para os links da navbar */
+.nav-itens a {
+        padding: 10px 15px; /* Espaçamento interno uniforme para todos os links */
+        text-decoration: none; /* Remove sublinhado */
+        color: black; /* Define a cor do texto */
+    }
+
+.nav-itens a:hover {
+            color: #64707ce1;
+        }
+
+.nav-itens a.active {
+            background-color: rgba(150, 159, 170, 0.18);
+            border-radius: 10px;
+            width: 170px;
+            height: 40px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+}
+
+.buttons a,
+.nav-itens a.Entrar,
+.nav-itens a.Cadastro {
+        text-decoration: none;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 1.1em;
+        padding: 10px 15px;
+        transition: background-color 0.3s ease;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        margin: 0; /* Remove margens */
+    }
+
+.nav-itens a.Entrar {
+    background-color: #FFFFFF;
+    color: #47525E;
+    border: 1px solid #969FAA;
+    width: 120px;
+    height: 40px;
+}
+
+.nav-itens a.Entrar:hover {
+        background-color: #0056b3;
+    }
+
+.nav-itens a.Cadastro {
+    background-color: #FFFFFF;
+    color: #47525E;
+    border: 1px solid #969FAA;
+    width: 170px;
+    height: 40px;
+}
+
+.nav-itens a.Cadastro:hover {
+        background-color: #0056b3;
+    }
+
+hr.header-separator {
+    border: none;
+    border-top: 1px solid #d8d8d8;
+    width: 100%;
+    max-width: 1200px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+/* Menu Toggle */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+        background-color: #333;
+        height: 3px;
+        width: 25px;
+        margin: 4px;
+    }
+
+body {
+    font-family: Arial;
+    color: gray;
+}
+
+body, html {
+    height: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 80px); /* Altura da tela menos a altura do cabeçalho */
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente a imagem e o texto */
+    justify-content: space-between; /* Espaça a imagem e o texto */
+    width: 80%; /* Ajusta a largura para dar um espaço adequado ao layout */
+    margin-bottom: 20px; /* Espaço entre o container e o submenu */
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column; /* Coloca as divs headline em coluna */
+}
+
+.hero-image {
+    max-width: 50%; /* Ajusta o tamanho da imagem para caber ao lado do texto */
+    height: auto;
+}
+
+.submenu {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espaçamento entre os botões */
+    margin-top: 20px;
+    text-align: center;
+    width: 100%; /* Faz a submenu ocupar 100% da largura */
+}
+
+.imagemgrande {
+    margin-top: 20px;
+    text-align: center;
+}
+
+    .imagemgrande img {
+        max-width: 80%; /* Ajusta a imagem grande para não ultrapassar a largura da página */
+        height: auto;
+    }
+
+
+.headline {
+    color: #333;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+}
+
+footer {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Centraliza o contêiner principal do formulário */
+.Cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa; /* Cor de fundo para a página */
+    padding: 20px;
+}
+
+    /* Estilos do contêiner do formulário */
+    .Cadastro .col-md-4 {
+        width: 100%; /* Largura total para dispositivos móveis */
+        max-width: 600px; /* Define uma largura máxima para o formulário */
+        background-color: #ffffff; /* Cor de fundo para o formulário */
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ao redor do formulário */
+    }
+
+    /* Estilos dos elementos do formulário */
+    .Cadastro form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px; /* Espaçamento entre os elementos do formulário */
+    }
+
+    .Cadastro .form-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+        .Cadastro .form-group label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+    .Cadastro .form-control {
+        width: 100%; /* Largura total para os campos de entrada */
+        padding: 10px;
+        font-size: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+        .Cadastro .form-control:focus {
+            border-color: #007bff; /* Cor de borda ao focar */
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.3); /* Sombra ao focar */
+            outline: none;
+        }
+
+    .Cadastro .btn-primary {
+        padding: 10px 20px;
+        font-size: 1rem;
+        font-weight: bold;
+        background-color: #007bff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .Cadastro .btn-primary:hover {
+            background-color: #0056b3; /* Cor ao passar o mouse */
+        }
+
+    .Cadastro .text-danger {
+        font-size: 0.875rem;
+        margin-top: 5px;
+    }
+
+    .Cadastro .btn-link {
+        color: #007bff;
+        text-decoration: none;
+        font-size: 0.875rem;
+    }
+
+        .Cadastro .btn-link:hover {
+            text-decoration: underline;
+        }
+
+
+/* Oculta os campos no frontend */
+#DespensaVirtual, #HistoricoDespensaVirtual, #Login {
+    display: none;
+}

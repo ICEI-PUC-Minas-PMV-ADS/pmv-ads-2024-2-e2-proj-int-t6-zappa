@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="suporte.css">
+    <link href="/codigo-fonte/src/contato/contato.css" rel="stylesheet">
+    <link href="/codigo-fonte/src/contato/contato.js" rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="nav-bar">
+            <div class="logo-cabecalho">
+                <a href="./pagina-inicial.html">
+                    <img class="img-logo-cabecalho" src="../../docs/img/zappa-logo-removebg-preview.png" alt="logo">
+                </a>
+            </div>
+
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-itens" id="nav-itens">
+                <li><a href="/src/pagina-inicial/pagina-inicial.html">Página Inicial</a></li>
+                <li><a href="/src/despensa/despensa.html">Despensa</a></li>
+                <li><a href="/src/sobre-nos/sobre-nos.html">Sobre Nós</a></li>
+                <li><a href="/src/suporte/suporte.html">Suporte</a></li>
+                <li><a href="/src/perfil/perfil.html">Perfil</a></li>
+                <li><a href="/login/login.html" class="Entrar">Entre</a></li>
+                <li><a href="/cadastro/cadastro.html" class="Cadastro">Cadastre-se</a></li>
+            </ul>
+        </nav>
+        <hr class="header-separator">
+    </header>
+
+    <table class="allWidth whiteColor smallMTop">
+        <tr>
+            <td class="halfWidth">
+                <p class="mediumMLeft smallMTop titleSize" style="color: rgb(184, 184, 184); font-weight:bold;">Contato</p>
+            </td>
+            <td class="halfWidth">
+                <p class="smallMTop secondMiniMLeft titleSize" style="color: rgb(184, 184, 184); font-weight:bold;">Suporte</p>
+            </td>
+        </tr>
+        <tr>
+            <div>
+                <td class="halfWidth">
+                    <div class="mediumMLeft">
+                        <h5>Telefone: +00 (00) 0 0000-0000</h5>
+                        <h5 class="miniMTop">Whatsapp: +00 (00) 0 0000-0000</h5>
+                        <h5 class="miniMTop">Email: suporte@zappa.com</h5>
+                        <h5 class="miniMTop">Endereço: Av. Brasil, 2023 - Funcionários, Belo Horizonte - MG, 30140-002
+                        </h5>
+                    </div>
+                </td>
+                <td class="halfWidth">
+                    <div class="mediumMRight">
+                        <form>
+                            <div class="form-row thirdMiniMLeft">
+                                <div class="allWidth">
+                                    <label for="validationServer02">Email</label>
+                                    <input type="text" class="form-control" id="emailInput" placeholder="Email"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="form-row miniMTop thirdMiniMLeft twentyHeight">
+                                <label for="validationTextarea">Mensagem</label>
+                                <textarea class="form-control" id="textInput" placeholder="Mensagem" required
+                                    style="height: 150px !important; "></textarea>
+                            </div>
+                            <div class="form-row miniMTop secondMiniMLeft">
+                                <button type="button" class="btn btn-secondary" style="background: rgb(184, 184, 184); border-color: rgb(184, 184, 184); margin-left: 5px;" onclick="submitButton()">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </td>
+            </div>
+        </tr>
+    </table>
+
+    <table class="justifyCenter allWidth miniMBottom">
+        <tr>
+            <p class="smallMTop smallMLeft whiteColor titleSize" style="color: rgb(184, 184, 184) !important; font-weight: bold !important;">Equipe responsável</p>
+        </tr>
+        <tr class="justifyCenter allWidth smallMTop">
+            <td class="">
+                <div class="card cardStyle">
+                    <img src="../../docs/img/maça_verde-removebg-preview.png" class="card-img-top revertM" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">André Dexheimer</h5>
+                    </div>
+                </div>
+            </td>
+            <td class="">
+                <div class="card cardStyle">
+                    <img src="../../docs/img/maça_vermelha-removebg-preview.png" class="card-img-top revertM" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cássia de Arruda</h5>
+                    </div>
+                </div>
+            </td>
+            <td class="">
+                <div class="card cardStyle">
+                    <img src="../../docs/img/maça_amarela-removebg-preview.png" class="card-img-top revertM" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">César Freitas</h5>
+                    </div>
+                </div>
+            </td>
+            <td class="">
+                <div class="card cardStyle">
+                    <img src="../../docs/img/maça_azul-removebg-preview.png" class="card-img-top revertM" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Fernanda Sayuri<h5>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <footer>
+        <div class="footer-content">
+            <img src="../../docs/img/zappa.png" alt="">
+            <ul class="contribuintes">
+                <p>Equipe</p><br>
+                <li><a href="mailto:1520585@sga.pucminas.br" target="_blank">1520585@sga.pucminas.br</a></li>
+                <li><a href="mailto:1522391@sga.pucminas.br" target="_blank">1522391@sga.pucminas.br</a></li>
+                <li><a href="mailto:1472692@sga.pucminas.br" target="_blank">1472692@sga.pucminas.br</a></li>
+                <li><a href="mailto:1471696@sga.pucminas.br" target="_blank">1471696@sga.pucminas.br</a></li>
+            </ul>
+        </div>
+        <p class="footer-text">&copy; 2024 Zappa, Inc.</p><br>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="/codigo-fonte/src/contato/contato.js"></script>
+    <script src="suporte.js"></script>
+</body>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</html>

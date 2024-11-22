@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - front_back</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/front_back.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header class="navbar-global">
+        <nav class="nav-bar">
+
+
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-itens" id="nav-itens">
+                <li><a href="https://localhost:44330/" class="no-style"><img src="/Imagens/logo_nav_bar.png" alt="Home"></a></li>
+                <li><a href="/src/despensa/despensa.html">Despensa</a></li>
+                <li><a href="/src/sobre-nos/sobre-nos.html">Sobre Nós</a></li>
+                <li><a href="/src/suporte/suporte.html">Suporte</a></li>
+                <li><a href="/src/perfil/perfil.html">Perfil</a></li>
+                <li><a href="/Usuarios/Login" class="Entrar">Entre</a></li>
+                <li><a href="/Usuarios/Create" class="Cadastro">Cadastre-se</a></li>
+            </ul>
+        </nav>
+        <hr class="header-separator">
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+        <div class="contribuintes">
+            <p>Equipe</p>
+            <div><a href="mailto:1520585@sga.pucminas.br" target="_blank">1520585@sga.pucminas.br</a></div>
+            <div><a href="mailto:1522391@sga.pucminas.br" target="_blank">1522391@sga.pucminas.br</a></div>
+            <div><a href="mailto:1472692@sga.pucminas.br" target="_blank">1472692@sga.pucminas.br</a></div>
+            <div><a href="mailto:1471696@sga.pucminas.br" target="_blank">1471696@sga.pucminas.br</a></div>
+        </div>
+        <p class="footer-text">&copy; 2024 Zappa, Inc.</p><br>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
