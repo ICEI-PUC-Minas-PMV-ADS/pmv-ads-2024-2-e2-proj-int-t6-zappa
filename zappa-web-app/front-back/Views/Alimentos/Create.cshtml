@@ -37,6 +37,24 @@
                 <select asp-for="Categoria" class="form-control" asp-items="Html.GetEnumSelectList<Categoria>()"></select>
                 <span asp-validation-for="Categoria" class="text-danger"></span>
             </div>
+            <!-- Novos atributos -->
+            <div class="form-group">
+                <label asp-for="Consumo" class="control-label"></label>
+                <input asp-for="Consumo" class="form-control" />
+                <span asp-validation-for="Consumo" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Validade" class="control-label"></label>
+                <input asp-for="Validade" class="form-control" />
+                <span asp-validation-for="Validade" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="DespensaId" class="control-label"></label>
+                <input asp-for="DespensaId" class="form-control" />
+                <span asp-validation-for="DespensaId" class="text-danger"></span>
+            </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
