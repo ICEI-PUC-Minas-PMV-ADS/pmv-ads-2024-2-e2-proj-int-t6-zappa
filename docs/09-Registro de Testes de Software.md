@@ -37,7 +37,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | **Caso de Teste** 	| **CT-07 – Recuperar senha** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-07 - A aplicação deve permitir ao usuário a recuperação de senha. |
-|Registro de evidência |  |
+|Registro de evidência | [teste 7.webm](https://github.com/user-attachments/assets/89c36716-0205-47fe-881b-6a9e8f19d26f) |
 
 | **Caso de Teste** 	| **CT-08 – Exibir alimentos próximos ao vencimento** 	|
 |:---:	|:---:	|
