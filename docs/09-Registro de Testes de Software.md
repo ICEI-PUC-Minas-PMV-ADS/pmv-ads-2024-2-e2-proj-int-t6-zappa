@@ -42,7 +42,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | **Caso de Teste** 	| **CT-08 – Exibir alimentos próximos ao vencimento** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-08 - A aplicação deve permitir ao usuário a visualização de alimentos que estão próximos a data de vencimento. |
-|Registro de evidência |  |
+|Registro de evidência | ![teste 5 e 8](https://github.com/user-attachments/assets/6af98707-c79c-44fc-aa55-b8d038dfef5c) |
 
 | **Caso de Teste** 	| **CT-09 – Enviar dúvidas ao suporte** 	|
 |:---:	|:---:	|
