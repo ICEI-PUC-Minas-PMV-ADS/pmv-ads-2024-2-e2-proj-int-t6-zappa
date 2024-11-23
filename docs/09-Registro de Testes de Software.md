@@ -52,7 +52,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | **Caso de Teste** 	| **CT-10 – Acessar area sobre nós** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-10 - A aplicação deve permitir ao usuário acessar a página "sobre nós". |
-|Registro de evidência |  |
+|Registro de evidência | [teste 10.webm](https://github.com/user-attachments/assets/8c584692-a3f5-4055-a833-a48b32323ff1) |
 
 
 
