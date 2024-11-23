@@ -7,28 +7,29 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | **Caso de Teste** 	| **CT-01 – Cadastrar conta** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-01 - A aplicação deve permitir ao usuário a criação de conta. |
-|Registro de evidência | https://github.com/user-attachments/assets/bd20928b-e600-4cfa-a978-478d4359cd65 |
+|Registro de evidência | [teste 1.webm](https://github.com/user-attachments/assets/40aeafa1-c13e-4f7b-a8b2-e9abb76ee69a) |
 
 | **Caso de Teste** 	| **CT-02 – Editar perfil** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-02 - A aplicação deve permitir que um usuário a edição do perfil. |
-|Registro de evidência | https://github.com/user-attachments/assets/aa0b58e9-55aa-4475-b2fd-e3ff5f9de381 |
-
+|Registro de evidência | [teste 2.webm](https://github.com/user-attachments/assets/b4681b11-4005-4729-92f1-0097f26dd08a) |
 
 | **Caso de Teste** 	| **CT-03 – Fazer login** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-03 - A aplicação deve permitir ao usuário fazer login. |
-|Registro de evidência | [video] |
+|Registro de evidência | [teste 3.webm](https://github.com/user-attachments/assets/81f11168-cc25-4cc6-b545-db19d709a8b4) |
+
 
 | **Caso de Teste** 	| **CT-04 – Cadastro de alimentos** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-04 - A aplicação deve permitir o cadastro de alimentos que serão adicionados a despensa do usuário. |
-|Registro de evidência | [video] |
+|Registro de evidência | [teste 4.webm](https://github.com/user-attachments/assets/ba1cba12-3177-4b57-a5c2-5cc9b29b9086) |
+
 
 | **Caso de Teste** 	| **CT-05 – Listagem de alimentos** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-05 - A aplicação deve permitir ao usuário listar os alimentos cadastrados, gerando uma despensa virtual. |
-|Registro de evidência | [video] |
+|Registro de evidência | ![teste 5 e 8](https://github.com/user-attachments/assets/6af98707-c79c-44fc-aa55-b8d038dfef5c) |
 
 | **Caso de Teste** 	| **CT-06 – Exclusão de alimentos** 	|
 |:---:	|:---:	|
