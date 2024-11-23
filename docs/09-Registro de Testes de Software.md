@@ -7,12 +7,13 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | **Caso de Teste** 	| **CT-01 – Cadastrar conta** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-01 - A aplicação deve permitir ao usuário a criação de conta. |
-|Registro de evidência | [teste 1.webm](https://github.com/user-attachments/assets/bd20928b-e600-4cfa-a978-478d4359cd65) |
+|Registro de evidência | https://github.com/user-attachments/assets/bd20928b-e600-4cfa-a978-478d4359cd65 |
 
 | **Caso de Teste** 	| **CT-02 – Editar perfil** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-02 - A aplicação deve permitir que um usuário a edição do perfil. |
-|Registro de evidência | [video] |
+|Registro de evidência | https://github.com/user-attachments/assets/aa0b58e9-55aa-4475-b2fd-e3ff5f9de381 |
+
 
 | **Caso de Teste** 	| **CT-03 – Fazer login** 	|
 |:---:	|:---:	|
