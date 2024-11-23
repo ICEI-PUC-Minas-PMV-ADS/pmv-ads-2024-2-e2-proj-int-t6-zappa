@@ -53,20 +53,6 @@ Os participantes devem completar as seguintes tarefas:
 - Erros Cometidos: Quantidade de erros ou dificuldades enfrentadas durante a execução das tarefas.
 - Satisfação do Usuário: Feedback direto dos participantes sobre a experiência de uso, como clareza da interface e facilidade de navegação.
 
-7. Questionário Pós-teste(?)
-Após o teste, os participantes devem responder a um breve questionário, avaliando:
-- Facilidade de uso: O sistema foi fácil de usar?
-- Clareza das informações: As funcionalidades e as informações exibidas estavam claras?
-- Satisfação geral: Qual o nível de satisfação ao usar o sistema?
-- Sugestões: Comentários sobre o que poderia ser melhorado.
-
-8. Relatório Final
-Após os testes, será elaborado um relatório final contendo:
-- Resumo dos resultados e principais achados.
-- Problemas de usabilidade identificados e sugestões de melhoria.
-- Feedback positivo dos usuários.
-- Recomendações para iterações futuras.
-
 
 > **Links Úteis**:
 > - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
