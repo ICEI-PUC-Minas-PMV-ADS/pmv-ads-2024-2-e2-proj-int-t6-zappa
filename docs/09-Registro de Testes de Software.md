@@ -47,7 +47,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | **Caso de Teste** 	| **CT-09 – Enviar dúvidas ao suporte** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-09 - A aplicação deve permitir usuário visualizar um campo de suporte. |
-|Registro de evidência |  |
+|Registro de evidência | [teste 9.webm](https://github.com/user-attachments/assets/97defc17-7df2-4549-8dfa-a306ab4af3b9) |
 
 | **Caso de Teste** 	| **CT-10 – Acessar area sobre nós** 	|
 |:---:	|:---:	|
