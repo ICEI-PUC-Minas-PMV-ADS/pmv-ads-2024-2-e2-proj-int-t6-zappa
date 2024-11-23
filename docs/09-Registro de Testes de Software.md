@@ -31,29 +31,28 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 
 | **Caso de Teste** 	| **CT-06 – Exclusão de alimentos** 	|
 |:---:	|:---:	|
-
 |	Requisito Associado 	| RF-06 - A aplicação deve permitir ao usuário a exclusão de alimentos da despensa virtual. |
-|Registro de evidência | [video] |
+|Registro de evidência | [teste 6.webm](https://github.com/user-attachments/assets/c24f21c3-769b-4377-92d2-003ab02ba5ba) |
 
 | **Caso de Teste** 	| **CT-07 – Recuperar senha** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-07 - A aplicação deve permitir ao usuário a recuperação de senha. |
-|Registro de evidência | [video] |
+|Registro de evidência |  |
 
 | **Caso de Teste** 	| **CT-08 – Exibir alimentos próximos ao vencimento** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-08 - A aplicação deve permitir ao usuário a visualização de alimentos que estão próximos a data de vencimento. |
-|Registro de evidência | [video] |
+|Registro de evidência |  |
 
 | **Caso de Teste** 	| **CT-09 – Enviar dúvidas ao suporte** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-09 - A aplicação deve permitir usuário visualizar um campo de suporte. |
-|Registro de evidência | [video] |
+|Registro de evidência |  |
 
 | **Caso de Teste** 	| **CT-10 – Acessar area sobre nós** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-10 - A aplicação deve permitir ao usuário acessar a página "sobre nós". |
-|Registro de evidência | [video] |
+|Registro de evidência |  |
 
 
 
