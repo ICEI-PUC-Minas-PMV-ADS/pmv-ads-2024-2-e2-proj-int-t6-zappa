@@ -292,3 +292,31 @@ footer {
 #DespensaVirtual, #HistoricoDespensaVirtual, #Login {
     display: none;
 }
+
+/*create alimentos*/
+
+.container {
+    height: 100vh; /* Altura total da janela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box {
+    background-color: #f8f9fa; /* Cor de fundo para o formulário */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombras leves */
+}
+
+input[type="hidden"] {
+    display: none;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.btn-primary, .btn-success {
+    margin-right: 10px;
+}
